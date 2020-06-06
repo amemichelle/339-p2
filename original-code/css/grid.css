@@ -1,0 +1,324 @@
+/* This styling was created by Kristina Gorobets for IAT 339 Project 1, using a tutorial by Paul Brokenshire and CSS Tricks */
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .interactive-section, .text-section, .modular-section, .wireframe-image {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-flow: row wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+}
+
+.wireframe-image {
+    justify-content: center;
+}
+
+.nav-menu, .main-menu {
+    justify-content: center;
+}
+
+.addon-menu {
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.nav-item-img {
+    align-self: baseline;
+}
+
+.page-title, .logo, code {
+    justify-content: space-around;
+}
+
+.subtitle {
+    justify-content: flex-start;
+    margin-left: 1em;
+}
+
+.swatches {
+    justify-content: flex-start;
+}
+
+.element, .m-element {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.product-listing, .grid-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    
+    margin-top: 1em;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+.grid-container {
+    margin-bottom: 1em;
+}
+
+.main-menu-box, .body-box, .main-listings-box {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: row wrap;
+
+    align-items: flex-start;
+    align-content: flex-start;
+    
+    width: 100%;
+}
+
+.top-bar-box {
+    background-color: rgb(235,208,184);
+    width: 100%;
+    height: 8em;
+}
+
+.main-menu-box {
+    justify-content: center;
+    margin: 1em 0;
+    padding: 0 5em;
+}
+
+.menu-item-box {
+    background-color: rgb(180,218,220);
+    align-self: center;
+}
+
+.menu-item-box2 {
+    background-color: rgb(78,128,136);
+}
+
+
+.menu-item-box, .menu-item-box2 {
+    flex: 1 5 6em;
+    width: 6em;
+    height: 2em;
+}
+
+.filter-sidebar-box {
+    flex: 1 0 25%;
+    height: 35em;
+    align-self: flex-start;
+    
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: column wrap;
+    
+    align-items: center;
+    overflow: hidden;
+}
+
+.filter-box {
+    margin: 1em 0;
+    width: 80%;
+    height: 40%;
+    background-color: rgb(78,128,136);
+}
+
+.sidebar-listings-box {
+    width: 80%;
+    min-height: 40%;
+    background-color: rgb(78,128,136);
+}
+
+.main-listings-box {
+    flex: 3 1 75%;
+    height: 35em;
+    align-self: flex-end;
+    overflow: auto;
+    
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.product-listing-box {
+    width: 10em;
+    height: 10em;
+    margin: 1em;
+    
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: column wrap;
+}
+
+.image-box {
+   background-color: rgb(235,208,184);
+    height: 8em;
+}
+
+.product-label-box {
+   background-color: rgb(180,218,220);
+    height: 2em;
+}
+
+.nav-item, .nav-item-addon {
+    flex: 100% 20% auto;
+    padding: 0.5em 1em;
+}
+
+.interactive-section, .text-section, .modular-section {
+    margin: auto 2em;
+}
+
+.interactive-element, .text-element, .module {
+    flex: 1 2 auto;
+}
+
+.module-full-width {
+    width: 100%;
+}
+
+code {
+    padding: 1em;
+    justify-content: flex-start;
+    flex: 1 1 auto;
+}
+
+img.product-image {
+    width: 16em;
+}
+
+.star-rating {
+    width: 8em;
+}
+
+.circle {
+    flex-flow: row wrap;
+    margin: 0 1em;
+}
+
+form {
+    margin: 1em 0;
+    
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: column wrap;
+}
+
+.label-and-field {
+    margin-top: 1em;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+}
+
+.save-button {
+     display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    justify-content: flex-end;
+}
+
+.shipping-form-col-1, .shipping-form-col-2, .shipping-form-col-3 {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: row wrap;
+}
+
+.save-button {
+    align-self: flex-end;
+}
+
+.wireflow {
+    max-width: 80%;
+}
+
+
+@media (max-width:430px) {
+    
+    .nav-menu {
+        text-align: center;
+    }
+    
+    .nav-item {
+        flex: 1 5 100%;
+        align-content:  center;
+    }
+}
+
+@media (max-width: 719px) {
+    
+    .menu-item-box, .menu-item-box2 {
+        flex: 5 5 100%;
+        width: 6em;
+        height: 2em;
+    }
+}
+
+/*
+
+.box {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    
+    justify-content: space-around;
+}
+
+.container .block {
+  height: 200px;
+}
+.container .block:nth-of-type(even) {
+  background-color: rgb(78,129,140);
+}
+.container .block:nth-of-type(odd) {
+  background-color: rgb(239,213,188);
+}
+
+@media (max-width:30em) {
+    .box-item {
+        flex: 1 5 100%;
+    }
+}
+
+@media (min-width: 30em) {
+    .box-item {
+        flex: 1 5 auto;
+    }
+}
+
+*/
