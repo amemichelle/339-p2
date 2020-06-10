@@ -8,7 +8,7 @@
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-
+    
     flex-flow: row wrap;
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
@@ -54,10 +54,10 @@
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-
+    
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
-
+    
     margin-top: 1em;
     flex-flow: column wrap;
     align-items: center;
@@ -72,14 +72,14 @@
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-
+    
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     flex-flow: row wrap;
 
     align-items: flex-start;
     align-content: flex-start;
-
+    
     width: 100%;
 }
 
@@ -115,15 +115,15 @@
     flex: 1 0 25%;
     height: 35em;
     align-self: flex-start;
-
+    
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-
+    
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     flex-flow: column wrap;
-
+    
     align-items: center;
     overflow: hidden;
 }
@@ -146,7 +146,7 @@
     height: 35em;
     align-self: flex-end;
     overflow: auto;
-
+    
     align-items: flex-start;
     align-content: flex-start;
 }
@@ -155,11 +155,11 @@
     width: 10em;
     height: 10em;
     margin: 1em;
-
+    
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-
+    
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     flex-flow: column wrap;
@@ -213,11 +213,11 @@ img.product-image {
 
 form {
     margin: 1em 0;
-
+    
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-
+    
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     flex-flow: column wrap;
@@ -228,7 +228,7 @@ form {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-
+    
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     flex-flow: column wrap;
@@ -239,7 +239,7 @@ form {
      display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-
+    
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     justify-content: flex-end;
@@ -249,7 +249,7 @@ form {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-
+    
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     flex-flow: row wrap;
@@ -260,16 +260,16 @@ form {
 }
 
 .wireflow {
-    max-width: 100%;
+    max-width: 80%;
 }
 
 
 @media (max-width:430px) {
-
+    
     .nav-menu {
         text-align: center;
     }
-
+    
     .nav-item {
         flex: 1 5 100%;
         align-content:  center;
@@ -277,7 +277,7 @@ form {
 }
 
 @media (max-width: 719px) {
-
+    
     .menu-item-box, .menu-item-box2 {
         flex: 5 5 100%;
         width: 6em;
@@ -291,11 +291,11 @@ form {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-
+    
     flex-wrap: wrap;
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
-
+    
     justify-content: space-around;
 }
 
