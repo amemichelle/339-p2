@@ -7,21 +7,13 @@ body {
 }
 
 h1 {
-    font-family: "Kazimir Medium", serif;
-    color: rgb(235,208,184);
-}
-
-h2 {
-    font-family: "Kazimir Medium", serif;
-}
-
-h3, h4 {
-    font-family: "Acumin Pro Extra Light", "Akzidenz-Grotesk BQ Light", Helvetica, Arial, sans-serif;
+    color: rgb(78,128,136);
 }
 
 p {
     max-width: 60ch;
     line-height: 1.4em;
+    margin: 0;
 }
 
 .regular-p {
@@ -47,14 +39,9 @@ hr {
     border: 1px solid rgb(180,218,220);
 }
 
-/*
-.nav-item-img {
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-    background: transparent url("file:///F:/SFU/Year%204/IAT%20339/Assignments/P01/img/cart-sprite.svg") no-repeat 0 0;
+.nav-menu {
+    margin-top: 1em;
 }
-*/
 
 a.nav-item {
     color: #000;
@@ -144,15 +131,32 @@ li {
 }
 
 code {
-    background-color: rgb(237,244,243);
-    border-left: 1em solid rgb(78,128,136);
-    height: 6em;
+    //* background-color: rgb(237,244,243);
+    //* border-left: 1em solid rgb(78,128,136); *//
     overflow: auto;
+}
+
+.element {
+    border: 1px solid rgb(78,128,136);
+}
+
+.element-child, .element-label, .color-label {
+    padding: 1em;
+    justify-content: center;
+}
+
+.element-label {
+    color: white;
+    width: 100%;
+    margin: 0;
+    align-self: flex-start;
+    background-color: rgb(78,128,136);
 }
 
 .module-code {
     height: 6em;
     overflow: auto;
+    
 }
 
 .grid-code {
@@ -163,6 +167,7 @@ code {
 button {
     border: 0px;
     padding: 1em;
+    margin: 1em;
     color: white;
     background-color: rgb(180,218,220);
 }
@@ -204,19 +209,31 @@ input:focus {
     border-radius: 50%;
 }
 
-#color-1 {
+.color-square-1, .color-square-2, .color-square-3, .color-square-4 {
+    height: 6em;
+}
+
+.color-square-1 {
     background-color: rgb(235,208,184);
 }
 
-#color-2 {
+.color-square-2 {
     background-color: rgb(180,218,220);
 }
 
-#color-3 {
+.color-square-3 {
     background-color: rgb(78,128,136);
 }
 
-#color-4 {
+.color-square-4 {
     background-color: #fff;
-    border: 1px solid black;
+    border: 1px solid #f9f9f9;
+}
+
+.color-label {
+    color: black;
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: #f9f9f9;
 }
