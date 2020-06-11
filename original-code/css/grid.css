@@ -12,7 +12,7 @@ body {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-    
+
     flex-flow: row wrap;
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
@@ -98,10 +98,10 @@ element-child {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-    
+
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
-    
+
     margin-top: 1em;
     flex-flow: column wrap;
     align-items: center;
@@ -116,14 +116,14 @@ element-child {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-    
+
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     flex-flow: row wrap;
 
     align-items: flex-start;
     align-content: flex-start;
-    
+
     width: 100%;
 }
 
@@ -159,15 +159,15 @@ element-child {
     flex: 1 0 25%;
     height: 35em;
     align-self: flex-start;
-    
+
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-    
+
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     flex-flow: column wrap;
-    
+
     align-items: center;
     overflow: hidden;
 }
@@ -190,7 +190,7 @@ element-child {
     height: 35em;
     align-self: flex-end;
     overflow: auto;
-    
+
     align-items: flex-start;
     align-content: flex-start;
 }
@@ -199,11 +199,11 @@ element-child {
     width: 10em;
     height: 10em;
     margin: 1em;
-    
+
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-    
+
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     flex-flow: column wrap;
@@ -256,11 +256,11 @@ img.product-image {
 
 form {
     margin: 1em 0;
-    
+
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-    
+
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     flex-flow: column wrap;
@@ -276,7 +276,7 @@ label {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-    
+
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     flex-flow: column wrap;
@@ -287,7 +287,7 @@ label {
      display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-    
+
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     justify-content: flex-end;
@@ -297,7 +297,7 @@ label {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-    
+
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     flex-flow: row wrap;
@@ -308,16 +308,16 @@ label {
 }
 
 .wireflow {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 
 @media (max-width:430px) {
-    
+
     .nav-menu {
         text-align: center;
     }
-    
+
     .nav-item {
         flex: 1 5 100%;
         align-content:  center;
@@ -325,7 +325,7 @@ label {
 }
 
 @media (max-width: 719px) {
-    
+
     .menu-item-box, .menu-item-box2 {
         flex: 5 5 100%;
         width: 6em;
@@ -339,11 +339,11 @@ label {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-    
+
     flex-wrap: wrap;
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
-    
+
     justify-content: space-around;
 }
 
