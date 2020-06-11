@@ -10,10 +10,24 @@ h1 {
     color: rgb(78,128,136);
 }
 
+.justify-list-left, code {
+    text-align: left;
+    margin-left: 1em;
+}
+
+.space-right {
+    margin-right: 1em;
+}
+
+.price-label, .availability, .space-above {
+    margin-top: 1em;
+}
+
 p {
     max-width: 60ch;
     line-height: 1.4em;
     margin: 0;
+    text-align: left;
 }
 
 .regular-p {
@@ -21,22 +35,28 @@ p {
 }
 
 .product-title {
-    font-family: "Kazimir Medium", serif;
     text-decoration: none;
     margin-top: 0.5em;
-    font-size: 1.2em;
+    font-size: 1.8em;
     color: black;
 }
 
 .price {
-    font-family: "Kazimir Medium", serif;
-    font-size: 1.1em;
+    font-size: 1.6em;
+    font-weight: bold;
     margin: 0.3em 0 0;
 }
 
 hr {
     margin: 0 1em;
     border: 1px solid rgb(180,218,220);
+}
+
+.product-hr {
+    border: 1px solid black;
+    max-width: 65ch;
+    
+    margin: 0.5em 0 0;
 }
 
 .nav-menu {
@@ -86,6 +106,7 @@ a.nav-item-addon {
 
 a.text-link {
     color: rgb(180,218,220);
+    text-decoration: none;
 }
 
 a:active, a:focus, a:hover, #current {
@@ -142,6 +163,11 @@ code {
 
 .element-child, .element-label, .color-label {
     padding: 1em;
+    justify-content: center;
+    
+}
+
+.element-child-2 {
     justify-content: center;
 }
 

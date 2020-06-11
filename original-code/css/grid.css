@@ -8,7 +8,7 @@ body {
     padding: 1em;
 }
 
-.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches {
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .product-listing, .ratings, .availability, .nav-item-with-img {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -18,7 +18,7 @@ body {
     flex-wrap: -webkit-flex;
 }
 
-code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch {
+code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -26,6 +26,58 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
     flex-flow: column wrap;
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
+}
+
+.nav-item-with-img a {
+    padding: 0.5em 1em 0.5em 0.2em;
+}
+
+.choose-weight {
+
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: row wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    
+    align-items:center;
+}
+
+.weight-form, .add-to-cart {
+    max-width: 20ch;
+}
+
+.weight-gramms {
+    margin-left: 0.5em;
+    font-size: 1.5em;
+}
+
+.weight-input {
+    max-width: 20ch;
+}
+
+.ratings {
+    align-items: flex-end;
+}
+
+.availability {
+    align-items: baseline;
+}
+
+.availability a, .ratings a {
+    margin-left: 0.3em;
+}
+
+.product-image {
+    flex: 1 0 auto;
+    max-width: 30em;
+}
+
+.product-full-listing {
+    flex: 3 1 auto;
+    margin-left: 1em;
 }
 
 .element, .m-element {
@@ -50,6 +102,11 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
     width: 100%;
 }
 
+.subhead-override {
+    margin: 0;
+    padding: 1em;
+}
+
 .color-swatch {
     margin: 0 0.5em;
     flex: 1 1 auto;
@@ -58,7 +115,6 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
 
 element-child {
     align-self: center;
-    
 }
 
 .wireframe-image {
@@ -73,10 +129,6 @@ element-child {
     justify-content: flex-end;
     align-items: center;
     margin-right: 1em;
-}
-
-.nav-item-img {
-    align-self: baseline;
 }
 
 .page-title, .logo, code {
@@ -94,7 +146,7 @@ element-child {
 
 
 
-.product-listing, .grid-container {
+.grid-container {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -239,10 +291,6 @@ element-child {
 code {
     justify-content: flex-start;
     flex: 1 1 auto;
-}
-
-img.product-image {
-    width: 16em;
 }
 
 .star-rating {
