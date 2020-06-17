@@ -15,7 +15,7 @@
     <body>
      
       <div class="logo">
-          <img src="img/california-logo.png" height="200px">
+          <img src="img/california-logo.png" height="200px" alt="The official brand logo consisting of a cup overflowing with an ocean wave.">
       </div> <!-- End of logo div -->
 
         <nav class="nav-menu">
@@ -106,7 +106,7 @@
                      
                        <h4 class="element-label">Rendered Element</h4>
                       
-                       <p  class="element-child">This is an <a href="#" class="text-link">in-text link</a>.</p>
+                       <p class="element-child">This is an <a href="#" class="text-link">in-text link</a>.</p>
                        
                     </div> <!-- end of element div -->
                     
@@ -141,7 +141,7 @@
                      
                        <h4 class="element-label">Rendered Element</h4>
                       
-                       <button type="button" class="cta" href="#">Learn more</button>
+                       <button type="button" class="cta element-child" href="#">Learn more</button>
                        
                     </div> <!-- end of element div -->
                     
@@ -176,7 +176,7 @@
                      
                        <h4 class="element-label">Rendered Element</h4>
                       
-                       <button type="button" class="submit" href="#">Submit</button>
+                       <button type="button" class="submit element-child" href="#">Submit</button>
                        
                     </div> <!-- end of element div -->
                     
@@ -211,7 +211,7 @@
                      
                        <h4 class="element-label">Rendered Element</h4>
                       
-                       <button type="button" class="reset" href="#">Reset</button>
+                       <button type="button" class="reset element-child" href="#">Reset</button>
                        
                     </div> <!-- end of element div -->
                     
@@ -219,7 +219,7 @@
                      
                        <h4 class="element-label">CSS Selector</h4>
                       
-                       <code class="element-child">.submit</code>
+                       <code class="element-child">.reset</code>
                        
                     </div> <!-- end of element div -->
                    
@@ -246,7 +246,7 @@
                      
                        <h4 class="element-label">Rendered Element</h4>
                       
-                       <form action="#">
+                       <form action="#" class="element-child">
                        <label for="first-name">First Name:</label>
                        <input type="text" id="first-name" name="first-name">
                    </form>
@@ -285,50 +285,144 @@
             <h2 class="subtitle">Text Styling</h2><hr>
             
             <section class="text-section">
-              
-               <div class="text-element">
+             
+             <div class="interactive-element"> <!-- Reset Button -->
                   
-                   <h3>Headings</h3>
+                <div><h3>Headings</h3></div>
                    
-                   <code>&#60;h1&#62;Page Heading&#60;&#47;h1&#62;<br>
-                   &#60;h2&#62;Section Heading&#60;&#47;h2&#62;<br>
-                   &#60;h3&#62;Section Subheading&#60;&#47;h3&#62;<br></code>
-                   
-                   <div class="element">
-                       <h1>Page Heading</h1>
-                       <h2>Section Heading</h2>
-                       <h3>Section Subheading</h3>
-                   </div>
-                   
-               </div> <!-- End of text-element div -->
-               
-               <div class="text-element">
+                <div class="code-and-element">
                   
-                   <h3>Paragraph</h3>
-                   
-                   <code>&#60;p&#62;This is a paragraph.&#60;p&#62;</code>
-                   
-                   <div class="element">
-                       <p>This is a paragraph. A paragraph on this website is maximum 60 characters long for optimal reading experience. Font used are Acumin Pro Extra Light, or Akzidenz-Grotesk BQ Light, or Helvetica for Mac default, or Arial for Windows default. Line height is 1.4em.</p>
-                   </div>
-                   
-               </div> <!-- End of text-element div -->
-               
-               <div class="text-element">
-                  
-                   <h3>Bullet List</h3>
-                   
-                   <code>&#60;ul&#62;<br>
-                   &#60;li&#62;List Item&#60;&#47;li&#62;<br>
-                   &#60;li&#62;List Item 2&#60;&#47;li&#62;<br>
-                   &#60;li&#62;List Item 3&#60;&#47;li&#62;<br>
-                   &#60;&#47;ul&#62;
-                   </code>
-                   
-                   
-                   <div class="element">
+                    <div class="element">
+                     
+                       <h4 class="element-label">Rendered Element</h4>
                       
-                       <ul>
+                       <h1 class="page-title">Page Heading</h1>
+                       
+                    </div> <!-- end of element div -->
+                    
+                    <div class="element middle-child">
+                     
+                       <h4 class="element-label">CSS Selector</h4>
+                      
+                       <code class="element-child">.page-title</code>
+                       
+                    </div> <!-- end of element div -->
+                   
+                    <div class="element">
+                       
+                       <h4 class="element-label">Code</h4>
+                       
+                        <code  class="element-child">&#60;h1&#62;Page Heading&#60;&#47;h1&#62;
+                        </code>
+                        
+                    </div> <!-- end of element div -->
+                   
+
+                </div> <!-- end of code-and-element div -->
+                  
+                  <div class="code-and-element">
+                  
+                    <div class="element">
+                     
+                       <h4 class="element-label">Rendered Element</h4>
+                      
+                       <h2 class="subhead-override">Section Heading</h2>
+                       
+                    </div> <!-- end of element div -->
+                    
+                    <div class="element middle-child">
+                     
+                       <h4 class="element-label">CSS Selector</h4>
+                      
+                       <code class="element-child">.page-title</code>
+                       
+                    </div> <!-- end of element div -->
+                   
+                    <div class="element">
+                       
+                       <h4 class="element-label">Code</h4>
+                       
+                        <code  class="element-child">&#60;h2&#62;Section Heading&#60;&#47;h2&#62;
+                        </code>
+                        
+                    </div> <!-- end of element div -->
+                   
+
+                </div> <!-- end of code-and-element div -->
+                 
+                 <div class="code-and-element">
+                  
+                    <div class="element">
+                     
+                       <h4 class="element-label">Rendered Element</h4>
+                      
+                       <h3>Section Subheading</h3>
+                       
+                    </div> <!-- end of element div -->
+                    
+                    <div class="element middle-child">
+                     
+                       <h4 class="element-label">CSS Selector</h4>
+                      
+                       <code class="element-child">h3</code>
+                       
+                    </div> <!-- end of element div -->
+                   
+                    <div class="element">
+                       
+                       <h4 class="element-label">Code</h4>
+                       
+                        <code  class="element-child">
+                        &#60;h3&#62;Section Subheading&#60;&#47;h3&#62;
+                        </code>
+                        
+                    </div> <!-- end of element div -->
+                   
+
+                </div> <!-- end of code-and-element div -->
+                 
+                 <div><h3>Paragraph</h3></div>
+                 
+                 <div class="code-and-element">
+                  
+                    <div class="element">
+                    
+                       <h4 class="element-label">Rendered Element</h4>
+                      
+                       <p class="element-child">This is a paragraph. A paragraph on this website is maximum 60 characters long for optimal reading experience. Font used are Acumin Pro Extra Light, or Akzidenz-Grotesk BQ Light, or Helvetica for Mac default, or Arial for Windows default. Line height is 1.4em.</p>
+                       
+                    </div> <!-- end of element div -->
+                    
+                    <div class="element middle-child">
+                     
+                       <h4 class="element-label">CSS Selector</h4>
+                      
+                       <code class="element-child">p</code>
+                       
+                    </div> <!-- end of element div -->
+                   
+                    <div class="element">
+                       
+                       <h4 class="element-label">Code</h4>
+                       
+                        <code  class="element-child">
+                        &#60;p&#62;This is a paragraph.&#60;p&#62;
+                        </code>
+                        
+                    </div> <!-- end of element div -->
+                   
+
+                </div> <!-- end of code-and-element div -->
+                 
+                 <div><h3>Bullet List</h3></div>
+                 
+                 <div class="code-and-element">
+                  
+                    <div class="element">
+                    
+                       <h4 class="element-label">Rendered Element</h4>
+                      
+                       <ul class="justify-list-left element-child">
                            <li>
                                Green Tea
                            </li>
@@ -339,26 +433,43 @@
                                White Tea
                            </li>
                        </ul>
+                       
+                    </div> <!-- end of element div -->
+                    
+                    <div class="element middle-child">
+                     
+                       <h4 class="element-label">CSS Selector</h4>
+                      
+                       <code class="element-child">ul, li</code>
+                       
+                    </div> <!-- end of element div -->
                    
-                   </div> <!-- End of element div -->
-                   
-               </div> <!-- End of text-element div -->
-               
-               <div class="text-element">
-                  
-                <h3>Numbered List</h3>
-                   
-                <code>&#60;ol&#62;<br>
+                    <div class="element">
+                       
+                       <h4 class="element-label">Code</h4>
+                       
+                        <code  class="element-child">
+                        &#60;ul&#62;<br>
                    &#60;li&#62;List Item&#60;&#47;li&#62;<br>
                    &#60;li&#62;List Item 2&#60;&#47;li&#62;<br>
                    &#60;li&#62;List Item 3&#60;&#47;li&#62;<br>
-                   &#60;&#47;ol&#62;
-                   </code>
+                   &#60;&#47;ul&#62;
+                        </code>
+                        
+                    </div> <!-- end of element div -->
                    
-                   
-                   <div class="element">
+
+                </div> <!-- end of code-and-element div -->
+                
+                <div><h3>Numbered List</h3></div>
+                 
+                 <div class="code-and-element">
+                  
+                    <div class="element">
+                    
+                       <h4 class="element-label">Rendered Element</h4>
                       
-                       <ol>
+                        <ol class="justify-list-left element-child">
                            <li>
                                Boil water.
                            </li>
@@ -369,82 +480,312 @@
                                Steep for 5 minutes.
                            </li>
                        </ol>
+                       
+                    </div> <!-- end of element div -->
+                    
+                    <div class="element middle-child">
+                     
+                       <h4 class="element-label">CSS Selector</h4>
+                      
+                       <code class="element-child">ol, li</code>
+                       
+                    </div> <!-- end of element div -->
                    
-                   </div> <!-- End of element div -->
+                    <div class="element">
+                       
+                       <h4 class="element-label">Code</h4>
+                       
+                        <code  class="element-child">
+                       &#60;ol&#62;<br>
+                       &#60;li&#62;List Item&#60;&#47;li&#62;<br>
+                       &#60;li&#62;List Item 2&#60;&#47;li&#62;<br>
+                       &#60;li&#62;List Item 3&#60;&#47;li&#62;<br>
+                       &#60;&#47;ol&#62;
+                        </code>
+                        
+                    </div> <!-- end of element div -->
                    
-               </div> <!-- End of text-element div -->
-               
-                
+
+                </div> <!-- end of code-and-element div -->
+                  
+                   
+               </div> <!-- End of interactive-element div -->                
             </section> <!-- End of text-elements section -->
             
             
             <h2 class="subtitle">Modular Pattern Elements</h2><hr>
             
+            
+            
+            
             <section class="modular-section">
-              
-               <div class="module">
+             
+             <div><h3>Main Navigation</h3></div>
+                 
+                 <div class="code-and-element">
                   
-                   <h3>Main Navigation</h3>
+                    <div class="element">
+                    
+                       <h4 class="element-label">Rendered Element</h4>
+                      
+                    <nav class="main-menu element-child">
+                        <a href="#" class="nav-item">Tea</a>
+                        <a href="" class="nav-item" id="current">Coffee</a>
+                        <a href="#" class="nav-item">Sweets</a>
+                        <a href="#" class="nav-item">Merchandise</a>
+                    </nav>
+                       
+                    </div> <!-- end of element div -->
+                    
+                    <div class="element middle-child">
+                     
+                       <h4 class="element-label">CSS Selector</h4>
+                      
+                       <code class="element-child">.main-menu</code>
+                       
+                    </div> <!-- end of element div -->
                    
-                   <code class="module-code">&#60;nav class&#61;"addon-menu"&#62;<br>
+                    <div class="element">
+                       
+                       <h4 class="element-label">Code</h4>
+                       
+                        <code  class="element-child">
+                        &#60;nav class&#61;"addon-menu"&#62;<br>
                    &#60;a href&#61;"&#35;" class&#61;"nav-item-addon"&#62;About Us&#60;&#47;a&#62;<br>
                    &#60;a href&#61;"&#35;" class&#61;"nav-item-addon"&#62;Contact&#60;&#47;a&#62;<br>
                    &#60;a href&#61;"&#35;" class&#61;"nav-item-addon"&#62;My Account&#60;&#47;a&#62;<br>
                    &#60;img src&#61;"cart-icon.png" height&#61;"22px" class&#61;"nav-item-img"&#62;<br>
                    &#60;&#47;nav&#62;
-                   </code>
+                        </code>
+                        
+                    </div> <!-- end of element div -->
                    
-                   <div class="m-element">
+
+                </div> <!-- end of code-and-element div -->
+                
+                <div><h3>Top Navigation</h3></div>
+                 
+                 <div class="code-and-element">
+                  
+                    <div class="element">
                     
-                    <nav class="addon-menu">
+                       <h4 class="element-label">Rendered Element</h4>
+                       
+                    <nav class="addon-menu element-child">
+                       
+                       <a href="#" class="nav-item-addon">Home</a>
+                       
                         <a href="#" class="nav-item-addon">About Us</a>
+                        
                         <a href="#" class="nav-item-addon">Contact</a>
-                        <a href="" class="nav-item-addon">My Account</a>
-                        <img src="img/cart-icon.png" height="22px" class="nav-item-img">
+                        
+                        <div class="nav-item-with-img">
+                        
+                        <img src="img/profile-icon-02.png" height="22px" class="nav-item-img">
+                        
+                        <a href="#" class="nav-item-addon">My Account</a>
+                        
+                        </div>
+                        
+                        <div class="nav-item-with-img">
+                           
+                           <img src="img/cart-icon-new-01.png" height="22px" class="nav-item-img">
+                           
+                            <a href="#" class="nav-item-addon">Cart</a>
+                            
+                        </div>
+                        
                     </nav>
-                    <br>
-                    <nav class="main-menu">
-                        <a href="#" class="nav-item">Home</a>
-                        <a href="#" class="nav-item">Tea</a>
-                        <a href="" class="nav-item" id="current">Coffee</a>
-                        <a href="#" class="nav-item">Sweet Treats</a>
-                        <a href="#" class="nav-item">Merchandise</a>
-                    </nav>
+                          
+                       
+                    </div> <!-- end of element div -->
                     
-                   </div>
+                    <div class="element middle-child">
+                     
+                       <h4 class="element-label">CSS Selector</h4>
+                      
+                       <code class="element-child">.addon-menu</code>
+                       
+                    </div> <!-- end of element div -->
                    
-               </div> <!-- End of text-element div -->
+                    <div class="element">
+                       
+                       <h4 class="element-label">Code</h4>
+                       
+                        <code  class="element-child">
+                        &#60;nav class&#61;"addon-menu"&#62;<br>
+                   &#60;a href&#61;"&#35;" class&#61;"nav-item-addon"&#62;About Us&#60;&#47;a&#62;<br>
+                   &#60;a href&#61;"&#35;" class&#61;"nav-item-addon"&#62;Contact&#60;&#47;a&#62;<br>
+                   &#60;a href&#61;"&#35;" class&#61;"nav-item-addon"&#62;My Account&#60;&#47;a&#62;<br>
+                   &#60;img src&#61;"cart-icon.png" height&#61;"22px" class&#61;"nav-item-img"&#62;<br>
+                   &#60;&#47;nav&#62;
+                        </code>
+                        
+                    </div> <!-- end of element div -->
+                   
+
+                </div> <!-- end of code-and-element div -->
                
                <div class="module">
-                  
-                   <h3>Product Listing</h3>
+                 
+                 <div><h3>Product Listing</h3></div>
+                 
+                 <div class="code-and-element">
+                    
+                    <div class="element space-right">
+                     
+                       <h4 class="element-label">CSS Selector</h4>
+                      
+                       <code class="element-child">.product-listing, .product-full-listing, .availability</code>
+                       
+                    </div> <!-- end of element div -->
                    
-                   <code class="module-code">
-                   &#60;div class&#61;"product-listing"&#62;<br>
-                   &#60;img src&#61;"mugs.jpg" class&#61;"product-image"&#62;<br>
-                   &#60;a href&#61;"&#35;" class&#61;"product-title"&#62;Mug Set for Two&#60;&#47;a&#62;<br>
-                   &#60;img src&#61;"star-rating.png" class&#61;star-rating"&#62;<br>
-                   &#60;p class&#61;price"&#62;$25.00&#60;&#47;p&#62;<br>
-                   &#60;&#47;div&#62;
-                   </code>
+                    <div class="element">
+                       
+                       <h4 class="element-label">Code</h4>
+                       
+                        <code  class="element-child grid-code">
+                        
+                        
+                        
+                        
+                        &#60;div class="product-listing"&#62;<br>
+                         &#60;div&#62;<br>
+                         &#60;img src="img/product-listing.jpg" class="product-image" alt="A gift set of two california mugs, one of which has the black logo on white, and the other is colored logo on sand colored mug."&#62;<br>
+                     &#60;/div&#62;<br>
+                     
+                     &#60;div class="product-full-listing"&#62;<br>
+                        
+                         &#60;div class="product-info"&#62;<br>
+                         &#60;h2 class="product-title">Mug Set for Two&#60;/h2&#62;<br>
+                         
+                         &#60;div class="ratings"&#62;<br>
+                            
+                             &#60;img src="img/stars-v2.png" class="star-rating"&#62;<br>
+                             
+                             &#60;a href="#" class="text-link">&#40;23 reviews&#41;&#60;/a&#62;<br>
+                             
+                         &#60;/div&#62;<br>
+                         
+                         &#60;div class="availability"&#62;<br>
+                            
+                             &#60;p&#62;In-stock &vert;&#60;/p&#62;<br>
+                             &#60;a href="#" class="text-link"&#62;Check store availability&#60;/a&#62;<br>
+                             
+                         &#60;/div&#62;
+                         
+                         &#60;p class="price-label"&#62;&#60;span class="price"&#62;$25.00 &#60;/span&#62;&#47; 100g&#60;/p&#62;<br>
+                         
+                         &#60;/div&#62;<br>
+                         
+                         &#60;div class="choose-weight"&#62;<br>
+                             
+                            &#60;form action="#" class="weight-form"&#62;<br>
+                                &#60;input type="text" id="weight" name="weight" class="weight-input"&#62;<br>
+                            &#60;/form&#62;<br>
+
+                            &#60;p class="weight-gramms"&#62;g&#60;/p&#62; <br>
+                           
+                            &#60;button type="button" class="cta add-to-cart"&#62;Add to cart&#60;/button&#62;<br>
+                            
+ 
+                         &#60;/div&#62;<br>
+                         
+                         &#60;hr class="product-hr"&#62;<br>
+                         
+                         &#60;p class="space-above"&#62;Item description goes here. These mugs are beautiful and custom designed and the caption perfectly encapsulates the amazing nature of this product. Amazing. &#60;a class="text-link">Read more.&#60;/a&#62;&#60;/p&#62;<br>
+                         
+                         &#60;/div&#62;<br>
+                         &#60;/div&#62;<br>
+                       
+                       
+                       
+                        </code>
+                        
+                    </div> <!-- end of element div -->
+
+                </div> <!-- end of code-and-element div -->
+                 
+                 
+                 
+                 
+                  <div class="product-listing-full">
+                     
+                     <div>
+                         <img src="img/product-listing.jpg" class="product-image" alt="A gift set of two california mugs, one of which has the black logo on white, and the other is colored logo on sand colored mug." height="350px">
+                     </div>
+                     
+                     <div class="product-full-listing">
+                        
+                         <div class="product-info">
+                         <h2 class="product-title">Mug Set for Two</h2>
+                         
+                         <div class="ratings">
+                            
+                             <img src="img/stars-v2.png" class="star-rating">
+                             
+                             <a href="#" class="text-link">&#40;23 reviews&#41;</a>
+                             
+                         </div> <!-- End of ratings div -->
+                         
+                         <div class="availability">
+                            
+                             <p>In-stock &vert;</p>
+                             <a href="#" class="text-link">Check store availability</a>
+                             
+                         </div>
+                         
+                         <p class="price-label"><span class="price">$25.00 </span>&#47; 100g</p>
+                         
+                         </div>
+                         
+                         <div class="choose-weight">
+                             
+                            <form action="#" class="weight-form">
+                                <input type="text" id="weight" name="weight" class="weight-input">
+                            </form>
+
+                            <p class="weight-gramms">g</p> 
+                           
+                            <button type="button" class="cta add-to-cart">Add to cart</button>
+                            
+ 
+                         </div>
+                         
+                         <hr class="product-hr">
+                         
+                         <p class="space-above">Item description goes here. These mugs are beautiful and custom designed and the caption perfectly encapsulates the amazing nature of this product. Amazing. <a class="text-link">Read more.</a></p>
+                         
+                     </div> <!-- End of product-full-listing div -->
+                     
+                     
+      
+                   </div> <!-- End of product-listing div -->
                    
-                   <div class="product-listing">
-                       <img src="img/product-listing.jpg" class="product-image">
-                       <a href="#" class="product-title">Mug Set for Two</a>
-                       <img src="img/stars-01.png" class="star-rating">
-                       <p class="price">$25.00</p>
-                   </div>
-                   
-               </div> <!-- End of text-element div -->
+               </div> <!-- End of module div -->
+               
+               
                
                <div class="module-full-width">
-                  
-                   <h3>Website Grid Structure</h3>
+                               
+                <div><h3>Website Grid Structure</h3></div>
+                
+                 <div class="code-and-element">
+                    
+                    <div class="element space-right">
+                     
+                       <h4 class="element-label">CSS Selector</h4>
+                      
+                       <code class="element-child">.text-link</code>
+                       
+                    </div> <!-- end of element div -->
                    
-                   <code class="grid-code">
-                   
-                   
-                   
+                    <div class="element">
+                       
+                       <h4 class="element-label">Code</h4>
+                       
+                        <code class="element-child grid-code">
+                        
                    
                    &#60;div class="grid-container"&#62;<br>
                      
@@ -525,7 +866,7 @@
                     
                     
                    </code>
-                   
+                     </div>
                    
                    <div class="m-element">
                       
@@ -599,8 +940,6 @@
                               </div>
                               
                           </div>
-                          
-                          
                       
                     </div> <!-- End of grid-container class -->
                    
@@ -609,14 +948,25 @@
                </div> <!-- End of text-element div -->
                
                <div class="module">
-                  
-                <h3>Shipping Form</h3>
+                 
+                 <div><h3>Shipping Form</h3></div>
+                 
+                 <div class="code-and-element">
+                    
+                    <div class="element space-right">
+                     
+                       <h4 class="element-label">CSS Selector</h4>
+                      
+                       <code class="element-child">ol, li</code>
+                       
+                    </div> <!-- end of element div -->
                    
-                <code class="module-code">
-                    
-                    
-                    
-                     &#60;h2&#62;Shipping Details&#60;&#47;h2&#62;<br>
+                    <div class="element">
+                       
+                       <h4 class="element-label">Code</h4>
+                       
+                        <code  class="element-child module-code">
+                        &#60;h2&#62;Shipping Details&#60;&#47;h2&#62;<br>
                       &#60;form&#62;<br>
                            &#60;div class="shipping-form-col-2"&#62;<br>
                                &#60;div class="label-and-field"&#62;<br>
@@ -700,10 +1050,13 @@
                       &#60;div class="save-button"><br>
                            &#60;button type="button" class="cta" href="#"&#62;Save&#60;&#47;button&#62;<br>
                       &#60;&#47;div&#62;
-                      
-                      
-                      
-                      </code>
+                        </code>
+                        
+                    </div> <!-- end of element div -->
+                   
+
+                </div> <!-- end of code-and-element div -->
+                  
                    
                    
                    <div class="m-element">

@@ -1,3 +1,5 @@
+/* General selectors */
+
 * {
     font-family: "Acumin Pro Light", "Akzidenz-Grotesk BQ Light", Helvetica, Arial, sans-serif;
 }
@@ -6,14 +8,146 @@ body {
     margin-bottom: 1em;
 }
 
+/* Main dropdown menu styling */
+
+#main-menu {
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: rgb(229, 197, 168);
+    justify-content: center;
+}
+
+.dropbtn {
+    font-family: "Acumin Pro SemiBold", "Akzidenz-Grotesk BQ SemiBold", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.08em;
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    
+    background-color: transparent;
+    color: black;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 1em 2em;
+
+}
+
+.dropdown-content {
+    display: none;
+    left: 0;
+    top: 100%;
+    position: absolute;
+    
+    background-color: rgb(224,242,247);
+    width: 100%;
+    
+    flex-flow: row wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    
+    justify-content: space-around;
+    
+    padding: 4em 20%;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  display: flex;
+    padding: 0.25em 0;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(224,242,247);
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown:hover .dropbtn {
+  border-bottom: 8px solid white;
+}
+
+/* Menues */
+
+
+.nav-item {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    padding: 2em 3em;
+    margin: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.nav-item:hover, .nav-item:active, #current:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 8px solid white;
+}
+
+
+#current {
+    border-bottom: 8px solid transparent;
+}
+
+.dropdown-col a{
+    color: black;
+    line-height: 2em;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.dropdown-col a:hover, .dropdown-col a:active {
+    color: rgb(78,128,136);
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.dropdown-col h3 {
+    color: rgb(78,128,136);
+    margin: 0 0 0.5em;
+}
+
+/* Banner */
+
+.banner-cup img {
+    max-height: 30em;
+}
+
+
+/* Text selectors */
+
 h1 {
     color: rgb(78,128,136);
+}
+
+.justify-list-left, code {
+    text-align: left;
+    margin-left: 1em;
+}
+
+.space-right {
+    margin-right: 1em;
+}
+
+.price-label, .availability, .space-above {
+    margin-top: 1em;
 }
 
 p {
     max-width: 60ch;
     line-height: 1.4em;
     margin: 0;
+    text-align: left;
 }
 
 .regular-p {
@@ -21,17 +155,16 @@ p {
 }
 
 .product-title {
-    font-family: "Kazimir Medium", serif;
     text-decoration: none;
     margin-top: 0.5em;
-    font-size: 1.2em;
+    font-size: 1.8em;
     color: black;
 }
 
 .price {
-    font-family: "Kazimir Medium", serif;
-    font-size: 1.1em;
+    font-size: 1.4em;
     margin: 0.3em 0 0;
+    text-align: center;
 }
 
 hr {
@@ -39,26 +172,23 @@ hr {
     border: 1px solid rgb(180,218,220);
 }
 
+.product-hr {
+    border: 1px solid black;
+    max-width: 65ch;
+    
+    margin: 0.5em 0 0;
+}
+
 .nav-menu {
     margin-top: 1em;
 }
 
-a.nav-item {
-    color: #000;
-    text-decoration: none;
-    border-top: 1px solid rgb(180,218,220);
-    border-bottom: 1px solid rgb(180,218,220);
+.links-list, .filter-box {
+    line-height: 2em;
+    padding: 0 2em 1em;
 }
 
 .list-menu {
-    display: -ms-flex;
-    display: -webkit-flex;
-    display: flex;
-    
-    flex-flow: column wrap;
-    flex-wrap: -ms-flex;
-    flex-wrap: -webkit-flex;
-    
     margin-left: 2em;
     line-height: 2em;
 }
@@ -86,12 +216,14 @@ a.nav-item-addon {
 
 a.text-link {
     color: rgb(180,218,220);
+    text-decoration: none;
 }
 
+/*
 a:active, a:focus, a:hover, #current {
     color: rgb(180,218,220);
 }
-
+*/
 ul, ol {
     list-style: none;
     line-height: 1.6em;
@@ -121,11 +253,6 @@ li {
     counter-increment: li;
 }
 
-#current {
-    border-top: 1px solid rgb(180,218,220);
-    border-bottom: 1px solid rgb(180,218,220);
-}
-
 .logo {
     background-color: rgb(235,208,184);
 }
@@ -142,6 +269,11 @@ code {
 
 .element-child, .element-label, .color-label {
     padding: 1em;
+    justify-content: center;
+    
+}
+
+.element-child-2 {
     justify-content: center;
 }
 
@@ -236,4 +368,39 @@ input:focus {
     margin: 0;
     text-align: center;
     background-color: #f9f9f9;
+}
+
+.slider {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+
+    height: 6px;
+    outline: 1px solid rgb(180,218,220);
+
+    padding: 0;
+    outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider:focus {
+    outline: 1px solid transparent;
+    border: none;
+    background-color: rgb(180,218,220);
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: rgb(78,128,136);
+  cursor: pointer;
+    border-radius: 20px;
 }
