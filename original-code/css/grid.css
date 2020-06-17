@@ -307,6 +307,17 @@ label {
     align-self: flex-end;
 }
 
+.save-button {
+     display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    justify-content: flex-end;
+}
+
+
 .wireflow {
     max-width: 100%;
 }
