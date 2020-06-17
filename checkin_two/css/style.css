@@ -1,0 +1,88 @@
+
+h4 {
+  margin-left:2rem;
+  margin-top:3rem;
+}
+
+footer {
+  width: 100%;
+  background-color:rgb(237,242,242);
+  /*position:fixed;
+  bottom:0em; */
+}
+
+.footer-link {
+  display:block;
+  text-decoration: none;
+  color:rgb(78,128,136);
+  font-family:Helvetica,sans-serif;
+  font-weight: bold;
+  margin-left:2rem;
+  padding:0.5rem;
+}
+
+.social-icons{
+  padding-right:0.5em;
+}
+
+.location-img{
+  margin-top:2.5rem;
+  margin-bottom:2.5rem;
+
+}
+
+input, select, textarea {
+    min-width: 20ch;
+    padding: 1em;
+    border: 1px solid rgb(180,218,220);
+    border-radius: 0px;
+}
+
+.element, .m-element {
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right:4em;
+}
+
+.banner-background{
+  width:80%;
+  background-color:rgb(180,218,220);
+  text-align: right;
+}
+
+h3{
+  text-align:left;
+  font-size:2.5rem;
+  margin-left:2rem;
+  margin-right:2rem;
+}
+
+p {
+  text-align:left;
+  margin-left:2rem;
+  margin-right:2rem;
+}
+
+.promo-img{
+min-width:100%;
+width:300px;
+
+}
+
+button {
+  padding:0.5rem;
+  padding-left:3rem;
+  padding-right:3rem;
+  border:none;
+  background-color:rgb(78,128,136);
+  transion:0.5s;
+}
+
+.promo-button{
+  justify-content: flex-start;
+  margin-left:1rem;
+}
+
+button:hover, button:active{
+  background-color:rgb(229,197,168);
+}
