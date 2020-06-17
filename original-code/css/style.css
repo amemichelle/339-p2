@@ -139,8 +139,25 @@ h1 {
     margin-right: 1em;
 }
 
-.price-label, .availability, .space-above {
+.price-label, .availability, .summary-availability .space-above {
     margin-top: 1em;
+}
+
+.summary-actions {
+    align-items: baseline;
+}
+
+.summary-actions p {
+    padding: 0 0.5em;
+}
+
+.remove-button {
+    text-decoration: none;
+    color: red;
+}
+
+.in-stock {
+    color: rgba(73, 175, 9, 1);
 }
 
 p {
@@ -161,10 +178,27 @@ p {
     color: black;
 }
 
+.summary-product-title {
+    margin: 0;
+    font-weight: 100;
+    font-size: 1.3em;
+}
+
 .price {
     font-size: 1.4em;
     margin: 0.3em 0 0;
     text-align: center;
+}
+
+.summary-price {
+    font-size: 1.6em;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.summary-product-listing-full {
+    max-width: 50em;
+    margin: 1em;
 }
 
 hr {
@@ -186,6 +220,21 @@ hr {
 .links-list, .filter-box {
     line-height: 2em;
     padding: 0 2em 1em;
+}
+
+.links-list a {
+    color: rgb(180,218,220);
+    text-decoration: none;
+}
+
+.links-list a:hover {
+    color: rgb(78,128,136);
+}
+
+.filter-box h3, .links-list h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5em;
 }
 
 .list-menu {
@@ -304,14 +353,18 @@ button {
     background-color: rgb(180,218,220);
 }
 
-.reset, .reset:hover {
+.reset, .reset:hover, .clear {
     color: black;
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid transparent;
 }
 
-.reset:hover {
+.reset:hover, .clear:hover {
     border: 1px solid black;
+}
+
+.clear-button {
+    justify-content: flex-end;
 }
 
 .submit {
@@ -404,3 +457,4 @@ input:focus {
   cursor: pointer;
     border-radius: 20px;
 }
+
