@@ -8,7 +8,8 @@ body {
     /* padding: 1em; */
 }
 
-.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full {
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .summary-availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .summary-product-listing-full, .clear-button, .summary-actions {
+    
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -16,9 +17,10 @@ body {
     flex-flow: row wrap;
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
+    
 }
 
-code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box {
+code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .summary-product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box {
     display: -ms-flex
     display: -webkit-flex;
     display: flex;
@@ -107,23 +109,27 @@ input.search-text:active, input.search-text:focus {
     font-size: 1.5em;
 }
 
+.summary-weight-gramms {
+    font-size: 1.5em;
+}
+
 .weight-input {
     max-width: 20ch;
 }
 
-.ratings {
+.ratings, .summary-ratings {
     align-items: flex-end;
 }
 
-.availability {
+.availability, .summary-availability {
     align-items: baseline;
 }
 
-.availability a, .ratings a {
+.availability a, .ratings a, .summary-ratings a, .summary-availability a {
     margin-left: 0.3em;
 }
 
-.product-full-listing {
+.product-full-listing, .summary-product-full-listing {
     flex: 3 1 auto;
     margin-left: 1em;
 }
@@ -307,7 +313,7 @@ code {
     flex: 1 1 auto;
 }
 
-.star-rating {
+.star-rating, .summary-star-rating {
     width: 7em;
     align-self: center;
 }
