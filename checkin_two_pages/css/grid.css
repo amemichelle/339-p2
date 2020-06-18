@@ -5,7 +5,7 @@
 body {
 }
 
-.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full {
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full, .about-container {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -46,6 +46,9 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
     margin-right: 1em;
 }
 
+.about-item{
+  flex: 1 1 0;
+}
 .search-text {
     flex: 8 1 auto;
     border: none;
