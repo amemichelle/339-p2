@@ -512,3 +512,70 @@ footer {
   margin-bottom:2.5rem;
 
 }
+
+ select, textarea {
+    min-width: 20ch;
+    padding: 1em;
+    border: 1px solid rgb(180,218,220);
+    border-radius: 0px;
+}
+
+ .m-element {
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right:4em;
+}
+
+input.form-input, textarea.form-input {
+  margin-left:1rem;
+}
+
+.summary-product-title {
+    margin: 0;
+    font-weight: 100;
+    font-size: 1.3em;
+}
+
+.in-stock {
+    color: rgba(73, 175, 9, 1);
+}
+
+a.text-link {
+    color: rgb(78,128,136);
+    text-decoration: none;
+}
+
+.summary-price {
+    font-size: 1.6em;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+
+.price-label, .availability, .summary-availability .space-above {
+    margin-top: 1em;
+}
+
+.summary-actions {
+    align-items: baseline;
+}
+
+.summary-actions p {
+    padding: 0 0.5em;
+}
+
+.remove-button {
+    text-decoration: none;
+    color: red;
+}
+
+p.in-stock, p.summary-price-label, p.summary-weight-gramms, p.cart-actions {
+  margin-left:0rem;
+}
+
+.summary-product-listing-full{
+  padding:3rem;
+  background-color:rgb(241,213,187);
+  margin-left:2rem;
+  margin-right:2rem;
+}
