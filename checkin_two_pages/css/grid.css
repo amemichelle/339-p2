@@ -5,7 +5,7 @@
 body {
 }
 
-.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full {
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full,.about-container {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -15,7 +15,7 @@ body {
     flex-wrap: -webkit-flex;
 }
 
-code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box,.summary-product-info{
+code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box,.summary-product-info, .thank-you-container, .icon-separator{
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -44,6 +44,11 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
     flex: 1 1 auto;
     height: 26px;
     margin-right: 1em;
+}
+
+
+.about-item {
+    flex: 1 1 auto;
 }
 
 .search-text {
@@ -449,4 +454,43 @@ label {
 
 .summary-weight-gramms {
     font-size: 1.5em;
+}
+
+.thank-you-message, .order-info, .order-summary {
+    background-color: #f9f9f9;
+    padding: 2em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.icon-separator {
+    align-items: center;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.icon-separator h3 {
+    padding: 0;
+    padding-top: 0.25em;
+    margin: 0;
+}
+
+.icon-separator img {
+    margin-right: 1em;
+}
+
+.icon-separator {
+    align-items: center;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.icon-separator h3 {
+    padding: 0;
+    margin: 0;
+}
+
+p.about-content{
+  margin-bottom:1rem;
 }

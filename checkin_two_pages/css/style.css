@@ -579,3 +579,30 @@ p.in-stock, p.summary-price-label, p.summary-weight-gramms, p.cart-actions {
   margin-left:2rem;
   margin-right:2rem;
 }
+
+.address-box {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.shipping-name {
+    font-weight: bold;
+}
+
+.thank-you-container {
+  margin:auto;
+  max-width:60%;
+  display: block;
+  margin-top:10rem;
+}
+
+.thanks-message {
+  text-align: center;
+}
+
+.about-image {
+  width:700px;
+  padding-left:2rem;
+  padding-bottom:2rem;
+  padding-right:2rem;
+}
