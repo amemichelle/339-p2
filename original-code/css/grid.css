@@ -4,11 +4,24 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body {
     padding: 1em;
 }
 
 .nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches {
+=======
+<<<<<<< Updated upstream
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .interactive-section, .text-section, .modular-section, .wireframe-image {
+=======
+body {
+    /* padding: 1em; */
+}
+
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .summary-availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .summary-product-listing-full, .clear-button, .summary-actions,.icon-separator {
+
+>>>>>>> Stashed changes
+>>>>>>> michellebranch
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -16,6 +29,31 @@ body {
     flex-flow: row wrap;
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
+<<<<<<< Updated upstream
+=======
+
+}
+
+code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .summary-product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box, .thank-you-container {
+    display: -ms-flex
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: column wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+}
+
+.icon-separator {
+    align-items: center;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.icon-separator h3 {
+    padding: 0;
+    margin: 0;
+>>>>>>> Stashed changes
 }
 
 code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch {
@@ -101,6 +139,95 @@ element-child {
 
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
+<<<<<<< Updated upstream
+=======
+
+    align-items:center;
+}
+
+.weight-form, .add-to-cart {
+    max-width: 20ch;
+}
+
+.weight-gramms {
+    margin-left: 0.5em;
+    font-size: 1.5em;
+}
+
+.summary-weight-gramms {
+    font-size: 1.5em;
+}
+
+.weight-input {
+    max-width: 20ch;
+}
+
+.ratings, .summary-ratings {
+    align-items: flex-end;
+}
+
+.availability, .summary-availability {
+    align-items: baseline;
+}
+
+.availability a, .ratings a, .summary-ratings a, .summary-availability a {
+    margin-left: 0.3em;
+}
+
+.product-full-listing, .summary-product-full-listing {
+    flex: 3 1 auto;
+    margin-left: 1em;
+}
+
+.element, .m-element {
+    flex: 1 1 auto;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 1059px) {
+    .middle-child {
+        margin: 0 1em 1em;
+    }
+}
+
+@media (max-width: 982px) and (min-width: 440px) {
+    .middle-child {
+        margin-left: 1em;
+    }
+}
+
+.swatches {
+    width: 100%;
+}
+
+.subhead-override {
+    margin: 0;
+    padding: 1em;
+}
+
+.color-swatch {
+    margin: 0 0.5em;
+    flex: 1 1 auto;
+    margin-bottom: 1em;
+}
+
+element-child {
+    align-self: center;
+}
+
+.wireframe-image {
+    justify-content: center;
+}
+
+.nav-menu, .main-menu {
+    justify-content: center;
+}
+
+.addon-menu div {
+    justify-content: flex-end;
+}
+>>>>>>> Stashed changes
 
     margin-top: 1em;
     flex-flow: column wrap;
@@ -160,6 +287,7 @@ element-child {
     height: 35em;
     align-self: flex-start;
 
+<<<<<<< Updated upstream
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -170,6 +298,8 @@ element-child {
 
     align-items: center;
     overflow: hidden;
+=======
+>>>>>>> Stashed changes
 }
 
 .filter-box {
