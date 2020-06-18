@@ -75,6 +75,22 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
     flex-wrap: -webkit-flex;
 }
 
+.address-box {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.shipping-name {
+    font-weight: bold;
+}
+
+.thank-you-message, .order-info, .order-summary {
+    background-color: #f9f9f9;
+    padding: 2em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
 .icon-separator {
     align-items: center;
     margin: 1em 0;
@@ -83,6 +99,7 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
 
 .icon-separator h3 {
     padding: 0;
+    padding-top: 0.25em;
     margin: 0;
 }
 
