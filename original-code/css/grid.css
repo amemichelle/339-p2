@@ -8,7 +8,7 @@ body {
     /* padding: 1em; */
 }
 
-.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .summary-availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .summary-product-listing-full, .clear-button, .summary-actions {
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .summary-availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .summary-product-listing-full, .clear-button, .summary-actions, .icon-separator {
     
     display: -ms-flex;
     display: -webkit-flex;
@@ -20,7 +20,7 @@ body {
     
 }
 
-code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .summary-product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box {
+code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .summary-product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box, .thank-you-container {
     display: -ms-flex
     display: -webkit-flex;
     display: flex;
@@ -28,6 +28,36 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
     flex-flow: column wrap;
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
+}
+
+.icon-separator {
+    align-items: center;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.icon-separator h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.icon-separator img {
+    margin-right: 1em;
+}
+
+
+.thank-you-container {
+    align-content: center;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.thank-you-container h3 {
+    font-weight: 100;
+    font-size: 1.3em;
 }
 
 .header-p {
