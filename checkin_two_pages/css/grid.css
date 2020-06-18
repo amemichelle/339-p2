@@ -6,10 +6,14 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full,.about-container {
 =======
 .nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full {
 >>>>>>> parent of feeae76... Try commit
+=======
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full {
+>>>>>>> parent of 1cc6053... about + thank you page
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -20,10 +24,14 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box,.summary-product-info, .thank-you-container, .icon-separator{
 =======
 code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box,.summary-product-info{
 >>>>>>> parent of feeae76... Try commit
+=======
+code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box,.summary-product-info{
+>>>>>>> parent of 1cc6053... about + thank you page
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -55,6 +63,7 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .about-item {
     flex: 1 1 auto;
@@ -62,6 +71,8 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
 
 =======
 >>>>>>> parent of feeae76... Try commit
+=======
+>>>>>>> parent of 1cc6053... about + thank you page
 .search-text {
     flex: 8 1 auto;
     border: none;
@@ -467,6 +478,7 @@ label {
     font-size: 1.5em;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .thank-you-message, .order-info, .order-summary {
     background-color: #f9f9f9;
@@ -508,3 +520,5 @@ p.about-content{
 }
 =======
 >>>>>>> parent of feeae76... Try commit
+=======
+>>>>>>> parent of 1cc6053... about + thank you page
