@@ -8,8 +8,6 @@ body {
     margin-bottom: 1em;
 }
 
-<<<<<<< Updated upstream
-=======
 /* Main dropdown menu styling */
 
 #main-menu {
@@ -180,14 +178,6 @@ p {
     font-size: 1.8em;
     color: black;
 }
-<<<<<<< Updated upstream
-=======
-.summary-product-title {
-    margin: 0;
-    font-weight: 100;
-    font-size: 1.3em;
-}
->>>>>>> Stashed changes
 
 .summary-product-title {
     margin: 0;
@@ -217,7 +207,6 @@ hr {
     border: 1px solid rgb(180,218,220);
 }
 
-<<<<<<< Updated upstream
 /*
 .nav-item-img {
     display: inline-block;
@@ -333,11 +322,11 @@ code {
     overflow: auto;
 }
 
-<<<<<<< Updated upstream
 .module-code {
     height: 6em;
     overflow: auto;
-=======
+}
+
 .element {
     border: 1px solid rgb(78,128,136);
 }
@@ -363,8 +352,6 @@ code {
 .module-code {
     height: 6em;
     overflow: auto;
-
->>>>>>> Stashed changes
 }
 
 .grid-code {
@@ -484,4 +471,3 @@ input:focus {
   cursor: pointer;
     border-radius: 20px;
 }
-

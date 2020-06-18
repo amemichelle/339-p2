@@ -1,36 +1,14 @@
-/* This styling was created by Kristina Gorobets for IAT 339 Project 1, using a tutorial by Paul Brokenshire and CSS Tricks */
+/* This styling was created by Kristina Gorobets and Michelle Swolfs for IAT 339 Project 1, using a tutorial by Paul Brokenshire and CSS Tricks */
 
 *, *::after, *::before {
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 body {
     /* padding: 1em; */
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .summary-availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .summary-product-listing-full, .clear-button, .summary-actions, .icon-separator {
-=======
-.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .summary-availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .summary-product-listing-full, .clear-button, .summary-actions, .icon-separator, .order-history-container, .order-details, .order-history-order-total {
->>>>>>> kristinacheckin2branch
-    
-=======
-.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches {
-=======
-<<<<<<< Updated upstream
-.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .interactive-section, .text-section, .modular-section, .wireframe-image {
-=======
-body {
-    /* padding: 1em; */
-}
-
-.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .summary-availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .summary-product-listing-full, .clear-button, .summary-actions,.icon-separator {
-
->>>>>>> Stashed changes
->>>>>>> michellebranch
->>>>>>> kristinasbranch
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .ratings, .availability, .summary-availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .summary-product-listing-full, .clear-button, .summary-actions, .icon-separator, .order-history-container, .order-details, .order-history-order-total, .interactive-section, .text-section, .modular-section, .wireframe-image {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -38,12 +16,6 @@ body {
     flex-flow: row wrap;
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
-<<<<<<< HEAD
-    
-=======
-<<<<<<< Updated upstream
-=======
-
 }
 
 code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .summary-product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box, .thank-you-container {
@@ -65,11 +37,9 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
 .icon-separator h3 {
     padding: 0;
     margin: 0;
->>>>>>> Stashed changes
->>>>>>> kristinasbranch
 }
 
-code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .summary-product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box, .thank-you-container, .account-side-menu, .order-history-list, .actions-list, .order-box, .order-top-bar-basic-details, .order-top-info {
+.code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .summary-product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box, .thank-you-container, .account-side-menu, .order-history-list, .actions-list, .order-box, .order-top-bar-basic-details, .order-top-info {
     
     display: -ms-flex
     display: -webkit-flex;
@@ -269,7 +239,7 @@ input.search-text:active, input.search-text:focus {
 .top-menu-strip {
     justify-content: space-between;
     align-items: center;
-    padding: 0 1em;
+    padding: 1em;
     margin-bottom: 1em;
 }
 
@@ -369,17 +339,6 @@ element-child {
     justify-content: center;
 }
 
-.addon-menu div {
-    justify-content: flex-end;
-}
-
-.addon-menu nav {
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 1em;
-    align-self: flex-end;
-}
-
 .page-title, .logo, code {
     justify-content: space-around;
 }
@@ -393,10 +352,6 @@ element-child {
     justify-content: flex-start;
 }
 
-<<<<<<< HEAD
-=======
-
-
 .product-listing, .grid-container {
     display: -ms-flex;
     display: -webkit-flex;
@@ -404,8 +359,6 @@ element-child {
 
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
-<<<<<<< Updated upstream
-=======
 
     align-items:center;
 }
@@ -489,18 +442,12 @@ element-child {
     justify-content: center;
 }
 
-.addon-menu div {
-    justify-content: flex-end;
-}
->>>>>>> Stashed changes
-
-    margin-top: 1em;
-    flex-flow: column wrap;
+.addon-menu {
     align-items: center;
+    flex-flow: row wrap;
 
 }
 
->>>>>>> kristinasbranch
 .grid-container {
     margin: 1em 0;
     justify-content: space-between;
@@ -561,11 +508,6 @@ element-child {
     flex: 1 0 25%;
     max-width: 25%;
     align-self: flex-start;
-<<<<<<< HEAD
-    
-=======
-
-<<<<<<< Updated upstream
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -576,18 +518,10 @@ element-child {
 
     align-items: center;
     overflow: hidden;
-=======
->>>>>>> Stashed changes
->>>>>>> kristinasbranch
 }
 
 .filter-box {
     margin: 1em 0;
-
-}
-
-.sidebar-listings-box {
-
 
 }
 
@@ -706,7 +640,6 @@ label {
     max-width: 100%;
 }
 
-
 @media (max-width:430px) {
 
     .nav-menu {
@@ -727,41 +660,3 @@ label {
         height: 2em;
     }
 }
-
-/*
-
-.box {
-    display: -ms-flex;
-    display: -webkit-flex;
-    display: flex;
-
-    flex-wrap: wrap;
-    flex-wrap: -ms-flex;
-    flex-wrap: -webkit-flex;
-
-    justify-content: space-around;
-}
-
-.container .block {
-  height: 200px;
-}
-.container .block:nth-of-type(even) {
-  background-color: rgb(78,129,140);
-}
-.container .block:nth-of-type(odd) {
-  background-color: rgb(239,213,188);
-}
-
-@media (max-width:30em) {
-    .box-item {
-        flex: 1 5 100%;
-    }
-}
-
-@media (min-width: 30em) {
-    .box-item {
-        flex: 1 5 auto;
-    }
-}
-
-*/
