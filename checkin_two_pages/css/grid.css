@@ -5,7 +5,11 @@
 body {
 }
 
+<<<<<<< HEAD
 .nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full,.about-container {
+=======
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full {
+>>>>>>> parent of feeae76... Try commit
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -15,7 +19,11 @@ body {
     flex-wrap: -webkit-flex;
 }
 
+<<<<<<< HEAD
 code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box,.summary-product-info, .thank-you-container, .icon-separator{
+=======
+code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box,.summary-product-info{
+>>>>>>> parent of feeae76... Try commit
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -46,11 +54,14 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
     margin-right: 1em;
 }
 
+<<<<<<< HEAD
 
 .about-item {
     flex: 1 1 auto;
 }
 
+=======
+>>>>>>> parent of feeae76... Try commit
 .search-text {
     flex: 8 1 auto;
     border: none;
@@ -455,6 +466,7 @@ label {
 .summary-weight-gramms {
     font-size: 1.5em;
 }
+<<<<<<< HEAD
 
 .thank-you-message, .order-info, .order-summary {
     background-color: #f9f9f9;
@@ -494,3 +506,5 @@ label {
 p.about-content{
   margin-bottom:1rem;
 }
+=======
+>>>>>>> parent of feeae76... Try commit
