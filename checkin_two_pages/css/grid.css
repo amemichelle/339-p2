@@ -5,7 +5,7 @@
 body {
 }
 
-.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus {
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -15,7 +15,7 @@ body {
     flex-wrap: -webkit-flex;
 }
 
-code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box {
+code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box,.summary-product-info{
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -432,4 +432,21 @@ label {
 
 .footer-link-group{
   flex:1 1 0;
+}
+
+.product-full-listing, .summary-product-full-listing {
+    flex: 3 1 auto;
+    margin-left: 1em;
+}
+
+.availability, .summary-availability {
+    align-items: baseline;
+}
+
+.availability a, .ratings a, .summary-ratings a, .summary-availability a {
+    margin-left: 0.3em;
+}
+
+.summary-weight-gramms {
+    font-size: 1.5em;
 }
