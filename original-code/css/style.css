@@ -156,7 +156,7 @@ h1 {
     color: red;
 }
 
-.in-stock {
+.in-stock, .green {
     color: rgba(73, 175, 9, 1);
 }
 

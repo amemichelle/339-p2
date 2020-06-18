@@ -8,7 +8,7 @@ body {
     /* padding: 1em; */
 }
 
-.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .summary-availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .summary-product-listing-full, .clear-button, .summary-actions, .icon-separator {
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .summary-availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .summary-product-listing-full, .clear-button, .summary-actions, .icon-separator, .order-history-container, .order-details, .order-history-order-total {
     
     display: -ms-flex;
     display: -webkit-flex;
@@ -20,7 +20,8 @@ body {
     
 }
 
-code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .summary-product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box, .thank-you-container {
+code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .summary-product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box, .thank-you-container, .account-side-menu, .order-history-list, .actions-list, .order-box, .order-top-bar-basic-details, .order-top-info {
+    
     display: -ms-flex
     display: -webkit-flex;
     display: flex;
@@ -28,6 +29,99 @@ code, .interactive-section, .text-section, .modular-section, .interactive-elemen
     flex-flow: column wrap;
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
+    
+}
+
+.order-history-order-total {
+    padding: 1em;
+}
+
+.order-options {
+    margin: 0.5em 0;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.order-options-track {
+    margin: 0.5em 0;
+    background-color: rgb(78,128,136);
+    color: white;
+    border: 1px solid transparent;
+}
+
+.order-options:hover, .order-options-track:hover {
+    background-color: rgb(180,218,220);
+    border: 1px solid transparent;
+    color: black;
+}
+
+.order-history-order-total {
+    align-self: flex-end;
+}
+
+.order-top-bar-basic-details {
+    line-height: 2em;
+}
+
+.order-top-bar-basic-details h3 {
+    margin: 0;
+}
+
+.order-history-container {
+    width: 100%;
+}
+
+.order-history-list {
+    flex: 4 1 auto;
+}
+
+.order-number {
+    background-color: rgb(78,128,136);
+    padding: 0 1em;
+    color: white;
+}
+
+.order-top-info-bar {
+    background-color: #f9f9f9;
+    display: flex;
+    padding: 1em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items-list {
+    flex: 3 1 auto;
+}
+
+.actions-list {
+    flex: 1 1 auto;
+}
+
+.order-box {
+    flex: 4 1 100%;
+    display: flex;
+    margin: 1em;
+}
+
+.account-side-menu {
+    flex: 1 1 20%;
+    padding: 1em;
+    line-height: 2em;
+}
+
+.account-side-menu a {
+    text-decoration: none;
+    background-color: rgb(180,218,220);
+    color: black;
+    padding: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.account-side-menu a:hover {
+    background-color: rgb(78,128,136);
+    color: white;
 }
 
 .address-box {
