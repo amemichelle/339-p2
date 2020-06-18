@@ -329,6 +329,7 @@ form {
 label {
     align-self: flex-start;
     padding-bottom: 0.5em;
+    margin-left:1rem;
 }
 
 .label-and-field {
