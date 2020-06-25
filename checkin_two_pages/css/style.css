@@ -143,6 +143,23 @@ h1 {
     margin-top: 1em;
 }
 
+.summary-actions {
+    align-items: baseline;
+}
+
+.summary-actions p {
+    padding: 0 0.5em;
+}
+
+.remove-button {
+    text-decoration: none;
+    color: red;
+}
+
+.in-stock, .green {
+    color: rgba(73, 175, 9, 1);
+}
+
 p {
     max-width: 60ch;
     line-height: 1.4em;
@@ -159,6 +176,23 @@ p {
     margin-top: 0.5em;
     font-size: 1.8em;
     color: black;
+}
+
+.summary-product-title {
+    margin: 0;
+    font-weight: 100;
+    font-size: 1.3em;
+}
+
+.summary-price {
+    font-size: 1.6em;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.summary-product-listing-full {
+    max-width: 50em;
+    margin: 1em;
 }
 
 .price {
@@ -182,11 +216,26 @@ hr {
 .nav-menu {
     margin-top: 1em;
 }
+a.nav-item {
+    color: #000;
+    text-decoration: none;
+}
 
 .links-list, .filter-box {
     line-height: 2em;
     padding: 0 2em 1em;
 }
+
+.links-list a:hover {
+    color: rgb(78,128,136);
+}
+
+.filter-box h3, .links-list h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
 
 .list-menu {
     margin-left: 2em;

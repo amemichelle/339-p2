@@ -123,6 +123,28 @@ body {
     max-height: 30em;
 }
 
+.banner-container {
+    padding: 2em;
+    align-items: center;
+}
+
+.banner-container p {
+    max-width: 50ch;
+}
+
+.banner-item h4 {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.banner-container button {
+    margin: 0;
+    align-self: flex-start;
+    justify-self: flex-start;
+    border: 1px solid rgb(78,128,136);
+    color: black;
+}
+
 
 /* Text selectors */
 
@@ -168,8 +190,9 @@ p {
     text-align: left;
 }
 
-.regular-p {
-    margin-left: 2em;
+.regular-p { 
+    line-height: 2em; 
+    margin-bottom: 1em; 
 }
 
 .product-title {
