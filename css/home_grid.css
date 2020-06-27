@@ -1,0 +1,22 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+/* NAVIGATION CSS */
+.nav-items, .promotion-container{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  flex-flow: row wrap;
+  flex-wrap: -ms-flex;
+  flex-wrap: -webkit-flex;
+}
+
+.left-nav-tems. .right-nav-items, .promotion-items{
+  flex:1 1 0;
+}
+
+
+
+/* NAVIGATION CSS */
