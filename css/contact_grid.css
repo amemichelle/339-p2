@@ -1,0 +1,65 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+/* NAVIGATION + PROMOTION CSS */
+.nav-items, .footer-menus{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  flex-flow: row wrap;
+  flex-wrap: -ms-flex;
+  flex-wrap: -webkit-flex;
+}
+
+.right-nav-items{
+  flex:1 1 0;
+}
+
+/* NAVIGATION + PROMOTION CSS */
+
+/* SHIPPING FORM CSS */
+
+
+ .shipping-form-col-2 {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: row wrap;
+}
+
+.label-and-field {
+    margin-top: 1em;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+}
+
+
+/* SHIPPING FORM CSS */
+
+/* FOOTER CSS */
+
+.footer-link-group{
+  flex:1 1 0;
+    margin-left: 2em;
+}
+
+.footer-link-group h5 {
+    align-self: flex-start;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 1em;
+    font-size: 1em;
+}
+
+/* FOOTER CSS */
