@@ -1,0 +1,31 @@
+/* Container */
+
+.about-body {
+    margin: 3em;
+}
+
+.about-item h3 {
+    font-size: 1.5em;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.about-body li {
+    max-width: 50ch;
+}
+
+.about-body p {
+    margin: 0.75em 0;
+    max-width: 50ch;
+}
+
+.icon-subtitle {
+    width: 50%;
+    text-align: center;
+}
+
+.icons-row {
+    margin: 3em 0;
+    padding: 0;
+}
+
