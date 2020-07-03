@@ -1,0 +1,76 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+/* NAVIGATION + PROMOTION CSS */
+.nav-items, .footer-menus, .product-info, .ratings{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  flex-flow: row wrap;
+  flex-wrap: -ms-flex;
+  flex-wrap: -webkit-flex;
+}
+
+.right-nav-items{
+  flex:1 1 0;
+}
+
+/* NAVIGATION + PROMOTION CSS */
+
+/* DETAILED PRODUCT LISTING CSS */
+
+.product-full-listing-width{
+    flex: 3 1 auto;
+    margin-left: 1em;
+}
+
+.ratings {
+    align-items: flex-end;
+}
+
+.ratings a {
+   margin-left: 0.3em;
+}
+
+.star-rating {
+    width: 7em;
+    align-self: center;
+}
+
+.price-label {
+    margin-top: 1em;
+}
+
+.choose-weight {
+
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: row wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+
+    align-items:center;
+}
+
+/* DETAILED PRODUCT LISTING CSS */
+
+/* FOOTER CSS */
+
+.footer-link-group{
+  flex:1 1 0;
+    margin-left: 2em;
+}
+
+.footer-link-group h5 {
+    align-self: flex-start;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 1em;
+    font-size: 1em;
+}
+
+/* FOOTER CSS */

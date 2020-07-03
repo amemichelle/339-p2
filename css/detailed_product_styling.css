@@ -1,0 +1,177 @@
+/* NAVIGATION CSS */
+
+.nav-items {
+  background-color: rgb(180,218,220);
+  height:80px;
+  position:sticky;
+  top:0;
+}
+
+.right-nav-items{
+  display:flex;
+  flex-grow:1;
+  justify-content:flex-end;
+  margin-right:1rem;
+}
+
+.center-align{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%
+}
+
+a.nav-left-link {
+  text-decoration:none;
+  font-weight:600;
+  color:rgb(0,0,0);
+  transition:0.5s;
+  padding-left:1rem;
+  padding-right:1rem;
+
+}
+
+a.nav-left-link:hover{
+  color:rgb(78,128,136);
+}
+
+.nav-icon{
+  display:flex;
+}
+
+a.nav-right-link {
+  transition:0.5s;
+  padding-left:1rem;
+  padding-right:1rem;
+  text-align:right;
+}
+
+a.nav-right-link:hover{
+  border-bottom:2px solid rgb(78,128,136);
+}
+
+.search-bar{
+  display:flex;
+  padding-left:1rem;
+}
+
+.search-text{
+  font-size:0.8rem;
+  padding:0.8rem;
+  border:none;
+  border-radius:15px 0px 0px 15px;
+
+}
+
+.search-button{
+  padding:0.35rem;
+  border:none;
+  background-color:rgb(255,255,255);
+  transition:0.5s;
+  border-radius:0px 15px 15px 0px;
+}
+
+.search-button:hover{
+  background-color:rgb(78,128,136);
+}
+
+/* NAVIGATION CSS */
+
+/* DETAILED PRODUCT LISTING CSS */
+.product-title {
+    text-decoration: none;
+    margin-top: 0.5em;
+    font-size: 1.8em;
+    color: black;
+}
+
+.availability {
+    margin-top: 1em;
+}
+
+.price {
+    font-size: 1.4em;
+    margin: 0.3em 0 0;
+    text-align: center;
+}
+
+.weight-form, .add-to-cart {
+    max-width: 20ch;
+}
+
+.cta {
+  border:none;
+  padding:0.8rem;
+  padding-left:2rem;
+  padding-right:2rem;
+  margin-top:1rem;
+  margin-left:3rem;
+  margin-bottom:1.5rem;
+  transition:0.5s;
+  background-color: rgb(180,218,220);
+  font-weight:bolder;
+
+}
+
+.cta:hover{
+  background-color:rgb(78,128,136);
+}
+
+.weight-input {
+    max-width: 20ch;
+}
+
+.weight-gramms {
+    margin-left: 0.5em;
+    font-size: 1.5em;
+}
+
+.product-hr {
+    border: 1px solid black;
+    max-width: 65ch;
+
+    margin: 0.5em 0 0;
+}
+
+
+.space-above {
+    margin-top: 1em;
+}
+
+a.text-link {
+    color: rgb(78,128,136);
+    text-decoration: none;
+}
+
+a.text-link:hover {
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+
+
+/* DETAILED PRODUCT LISTING CSS */
+
+
+/* FOOTER CSS */
+
+footer {
+  width:100%;
+  background-color:rgb(237,242,242);
+  bottom:0;
+  padding:2rem;
+}
+
+.footer-link {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.footer-link:hover {
+    color: rgb(78,128,136);
+}
+
+
+/* FOOTER CSS */

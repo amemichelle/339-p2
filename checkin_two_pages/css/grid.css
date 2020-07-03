@@ -1,0 +1,524 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+}
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full,.about-container {
+=======
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full {
+>>>>>>> parent of feeae76... Try commit
+=======
+.nav-menu, .page-title, .logo, .subtitle, code, .swatches, .main-menu, .addon-menu, .wireframe-image, .code-and-element, .swatches, .ratings, .availability, .nav-item-with-img, .top-menu-strip, .search-bar, .top-banner-promo, .dropdown, #main-menu, .product-label-box, .grid-container, .product-listing-full, .banner-container, section.footer-menus, .summary-product-listing-full {
+>>>>>>> parent of 1cc6053... about + thank you page
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: row wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+}
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box,.summary-product-info, .thank-you-container, .icon-separator{
+=======
+code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box,.summary-product-info{
+>>>>>>> parent of feeae76... Try commit
+=======
+code, .interactive-section, .text-section, .modular-section, .interactive-element, .element, .color-swatch, .product-info, .top-banner-with-main-menu, .dropdown-col, .product-label-box, .product-listing, .links-list, .list-menu, .filter-sidebar-box,.summary-product-info{
+>>>>>>> parent of 1cc6053... about + thank you page
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: column wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+}
+
+.header-p {
+    max-width: 24ch;
+    font-size: 2em;
+    line-height: 1.3em;
+}
+
+.search-bar {
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    border: 1px solid aliceblue;
+    border-radius: 40px;
+    padding: 1em;
+}
+
+.search-button img {
+    flex: 1 1 auto;
+    height: 26px;
+    margin-right: 1em;
+}
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+.about-item {
+    flex: 1 1 auto;
+}
+
+=======
+>>>>>>> parent of feeae76... Try commit
+=======
+>>>>>>> parent of 1cc6053... about + thank you page
+.search-text {
+    flex: 8 1 auto;
+    border: none;
+    background-color: none;
+    outline: none;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+input.search-text:active, input.search-text:focus {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+.top-banner-promo {
+    background-color: rgb(235, 208, 184);
+    margin: -1em;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-menu-strip {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    margin-bottom: 1em;
+}
+
+.nav-item-with-img a {
+    padding: 0.5em 1em 0.5em 0.2em;
+}
+
+.choose-weight {
+
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: row wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+
+    align-items:center;
+}
+
+.weight-form, .add-to-cart {
+    max-width: 20ch;
+}
+
+.weight-gramms {
+    margin-left: 0.5em;
+    font-size: 1.5em;
+}
+
+.weight-input {
+    max-width: 20ch;
+}
+
+.ratings {
+    align-items: flex-end;
+}
+
+.availability {
+    align-items: baseline;
+}
+
+.availability a, .ratings a {
+    margin-left: 0.3em;
+}
+
+.product-full-listing {
+    flex: 3 1 auto;
+    margin-left: 1em;
+}
+
+.element, .m-element {
+    flex: 1 1 auto;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 1059px) {
+    .middle-child {
+        margin: 0 1em 1em;
+    }
+}
+
+@media (max-width: 982px) and (min-width: 440px) {
+    .middle-child {
+        margin-left: 1em;
+    }
+}
+
+.swatches {
+    width: 100%;
+}
+
+.subhead-override {
+    margin: 0;
+    padding: 1em;
+}
+
+.color-swatch {
+    margin: 0 0.5em;
+    flex: 1 1 auto;
+    margin-bottom: 1em;
+}
+
+element-child {
+    align-self: center;
+}
+
+.wireframe-image {
+    justify-content: center;
+}
+
+.nav-menu, .main-menu {
+    justify-content: center;
+}
+
+.addon-menu div {
+    justify-content: flex-end;
+}
+
+.addon-menu nav {
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1em;
+    align-self: flex-end;
+}
+
+.page-title, .logo, code {
+    justify-content: space-around;
+}
+
+.subtitle {
+    justify-content: flex-start;
+    margin-left: 1em;
+}
+
+.swatches {
+    justify-content: flex-start;
+}
+
+.grid-container {
+    margin: 1em 0;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.main-menu-box, .body-box, .main-listings-box {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: row wrap;
+}
+
+.body-box {
+    justify-content: space-between;
+}
+
+.main-listings-box {
+    flex: 3 1 75%;
+    align-content: flex-start;
+    border-left: 2px solid black;
+    padding-left: 2em;
+}
+
+.top-bar-box {
+    background-color: rgb(235,208,184);
+    width: 100%;
+    height: 8em;
+}
+
+.main-menu-box {
+    justify-content: center;
+    margin: 1em 0;
+    padding: 0 5em;
+}
+
+.menu-item-box {
+    background-color: rgb(180,218,220);
+    align-self: center;
+}
+
+.menu-item-box2 {
+    background-color: rgb(78,128,136);
+}
+
+
+.menu-item-box, .menu-item-box2 {
+    flex: 1 5 6em;
+    width: 6em;
+    height: 2em;
+}
+
+.filter-sidebar-box {
+    flex: 1 0 25%;
+    max-width: 25%;
+    align-self: flex-start;
+
+}
+
+.filter-box {
+    margin: 1em 0;
+
+}
+
+.sidebar-listings-box {
+
+
+}
+
+.image-box img {
+    max-height: 14em;
+}
+
+.product-listing {
+    margin: 1em;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.product-label-box a {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.nav-item, .nav-item-addon {
+    flex: 100% 20% auto;
+    padding: 0.5em 1em;
+}
+
+.interactive-section, .text-section, .modular-section {
+    margin: auto 2em;
+}
+
+.interactive-element, .text-element, .module {
+    flex: 1 2 100%;
+}
+
+.module-full-width {
+    width: 100%;
+}
+
+code {
+    justify-content: flex-start;
+    flex: 1 1 auto;
+}
+
+.star-rating {
+    width: 7em;
+    align-self: center;
+}
+
+.circle {
+    flex-flow: row wrap;
+    margin: 0 1em;
+}
+
+form {
+    margin: 1em 0;
+
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: column wrap;
+}
+
+label {
+    align-self: flex-start;
+    padding-bottom: 0.5em;
+    margin-left:1rem;
+}
+
+.label-and-field {
+    margin-top: 1em;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+}
+
+.save-button {
+     display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    justify-content: flex-end;
+}
+
+.shipping-form-col-1, .shipping-form-col-2, .shipping-form-col-3 {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: row wrap;
+}
+
+.save-button {
+    align-self: flex-end;
+}
+
+.save-button {
+     display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    justify-content: flex-end;
+}
+
+
+.wireflow {
+    max-width: 100%;
+}
+
+.banner-item{
+  flex:1 1 0;
+}
+
+
+@media (max-width:430px) {
+
+    .nav-menu {
+        text-align: center;
+    }
+
+    .nav-item {
+        flex: 1 5 100%;
+        align-content:  center;
+    }
+}
+
+@media (max-width: 719px) {
+
+    .menu-item-box, .menu-item-box2 {
+        flex: 5 5 100%;
+        width: 6em;
+        height: 2em;
+    }
+}
+
+.save-button, .promo-button {
+  align-self: flex-end;
+  margin-bottom:2rem;
+  padding:1rem;
+}
+
+.save-button, .promo-button {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    justify-content: flex-end;
+}
+
+.promo-button{
+  justify-content: flex-start;
+  margin-left:1rem;
+}
+
+.footer-link-group{
+  flex:1 1 0;
+}
+
+.product-full-listing, .summary-product-full-listing {
+    flex: 3 1 auto;
+    margin-left: 1em;
+}
+
+.availability, .summary-availability {
+    align-items: baseline;
+}
+
+.availability a, .ratings a, .summary-ratings a, .summary-availability a {
+    margin-left: 0.3em;
+}
+
+.summary-weight-gramms {
+    font-size: 1.5em;
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+.thank-you-message, .order-info, .order-summary {
+    background-color: #f9f9f9;
+    padding: 2em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.icon-separator {
+    align-items: center;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.icon-separator h3 {
+    padding: 0;
+    padding-top: 0.25em;
+    margin: 0;
+}
+
+.icon-separator img {
+    margin-right: 1em;
+}
+
+.icon-separator {
+    align-items: center;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.icon-separator h3 {
+    padding: 0;
+    margin: 0;
+}
+
+p.about-content{
+  margin-bottom:1rem;
+}
+=======
+>>>>>>> parent of feeae76... Try commit
+=======
+>>>>>>> parent of 1cc6053... about + thank you page

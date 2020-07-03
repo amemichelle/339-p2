@@ -2,8 +2,13 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 /* NAVIGATION CSS */
 .nav-items, .promotion-container{
+=======
+/* NAVIGATION + PROMOTION CSS */
+.nav-items, .promotion-container, .footer-menus{
+>>>>>>> michellebranch
   display: -ms-flex;
   display: -webkit-flex;
   display: flex;
@@ -13,6 +18,7 @@
   flex-wrap: -webkit-flex;
 }
 
+<<<<<<< HEAD
 .left-nav-tems. .right-nav-items, .promotion-items{
   flex:1 1 0;
 }
@@ -20,3 +26,23 @@
 
 
 /* NAVIGATION CSS */
+=======
+.right-nav-items, .promotion-items{
+  flex:1 1 0;
+}
+
+/* NAVIGATION + PROMOTION CSS */
+
+.footer-link-group{
+  flex:1 1 0;
+    margin-left: 2em;
+}
+
+.footer-link-group h5 {
+    align-self: flex-start;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 1em;
+    font-size: 1em;
+}
+>>>>>>> michellebranch
