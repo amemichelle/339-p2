@@ -1,0 +1,167 @@
+.cart-with-order-summary {
+    margin-bottom: 4em;
+}
+    
+.cart-header {
+    font-family: "Acumin Pro Light", "Akzidenz-Grotesk BQ Light", Helvetica, Arial, sans-serif;
+    
+}
+
+.cart-top-bar {
+    background-color: rgb(78,128,136);
+    color: white;
+    font-size: 1.2em;
+    font-weight: lighter;
+    letter-spacing: 0.05em;
+}
+
+.summary-price, .summary-quantity, .summary-product-title {
+    font-size: 1.4em;
+    font-weight: 100;
+}
+
+.summary-quantity {
+    text-align: center;
+    justify-content: center;
+}
+
+.order-summary-total {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+.summary-product-title {
+    margin: 0;
+}
+
+.price-label, .availability, .summary-availability .space-above {
+    margin-top: 1em;
+}
+
+
+.remove-button {
+    text-align: right;
+    background-color: transparent;
+    color: black;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.remove-button:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: red;
+}
+
+.cta {
+    background-color: rgb(78,128,136);
+}
+
+.cta:hover {
+    background-color: rgb(180,218,220);
+}
+
+.summary-actions p {
+    padding: 0 0.5em;
+}
+
+.summary-weight-gramms {
+    font-size: 1.5em;
+}
+
+.weight-input {
+    max-width: 20ch;
+}
+
+.ratings, .summary-ratings {
+    align-items: flex-end;
+}
+
+.availability, .summary-availability {
+    align-items: baseline;
+}
+
+.availability a, .ratings a, .summary-ratings a, .summary-availability a {
+    margin-left: 0.3em;
+}
+
+.order-summary-hr {
+    padding: 0;
+    margin: 0;
+}
+
+.cart-actions {
+    padding: 0;
+    margin: 0;
+}
+
+.shipping-method-container, .payment-method-choices {
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+label {
+    margin-right: 4em;
+}
+
+#shipping-method-standard, #paypal-method, #credit-card-method, #billing-address {
+    height: 1em;
+    width: 1em;
+    padding: 0;
+    margin-right: 1em;
+    min-width: 0;
+}
+
+.billing-address-line {
+    margin-bottom: 1em;
+}
+
+input[type=radio]:checked {
+    background-color: rgb(78,128,136);
+    border: 5px solid black;
+}
+
+.shipping-method-with-date label {
+    padding: 0;
+}
+
+.estimated-delivery {
+    color: rgb(180,218,220);
+    font-size: 0.9em;
+}
+
+.paypal-button {
+    background-color: #003087;
+}
+
+.edit {
+    color: rgb(78,128,136);
+    font-size: 1.2em;
+    padding: 0;
+    background-color: transparent;
+    margin: 0;
+}
+
+.edit:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.order-summary-title-and-edit {
+    margin-top: 2em;
+}
+
+h3.order-summary-small-title {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.address-box, .payment-box {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em 0;
+}

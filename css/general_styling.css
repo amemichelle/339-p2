@@ -1,0 +1,458 @@
+/* General selectors */
+
+* {
+    font-family: "Acumin Pro Light", "Akzidenz-Grotesk BQ Light", Helvetica, Arial, sans-serif;
+}
+
+/* Main dropdown menu styling */
+
+#main-menu {
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: rgb(229, 197, 168);
+    justify-content: center;
+}
+
+.dropbtn {
+    font-family: "Acumin Pro SemiBold", "Akzidenz-Grotesk BQ SemiBold", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.08em;
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+
+    background-color: transparent;
+    color: black;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 1em 2em;
+
+}
+
+.dropdown-content {
+    display: none;
+    left: 0;
+    top: 100%;
+    position: absolute;
+
+    background-color: rgb(224,242,247);
+    width: 100%;
+
+    flex-flow: row wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+
+    justify-content: space-around;
+
+    padding: 4em 20%;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  display: flex;
+    padding: 0.25em 0;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(224,242,247);
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown:hover .dropbtn {
+  border-bottom: 8px solid white;
+}
+
+/* Banner */
+
+.banner-with-title {
+    position: relative;
+    text-align: center;
+}
+
+.centered-overlay-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+}
+
+/* Menues */
+
+
+.nav-item {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    padding: 2em 3em;
+    margin: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.nav-item:hover, .nav-item:active, #current:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 8px solid white;
+}
+
+
+#current {
+    border-bottom: 8px solid transparent;
+}
+
+.dropdown-col a{
+    color: black;
+    line-height: 2em;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.dropdown-col a:hover, .dropdown-col a:active {
+    color: rgb(78,128,136);
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.dropdown-col h3 {
+    color: rgb(78,128,136);
+    margin: 0 0 0.5em;
+}
+
+/* Banner */
+
+.banner-cup img {
+    max-height: 30em;
+}
+
+.banner-container {
+    padding: 2em;
+    align-items: center;
+}
+
+.banner-container p {
+    max-width: 50ch;
+}
+
+.banner-item h4 {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.banner-container button {
+    margin: 0;
+    align-self: flex-start;
+    justify-self: flex-start;
+    border: 1px solid rgb(78,128,136);
+    color: black;
+}
+
+
+/* Text selectors */
+
+>>>>>>> Stashed changes
+h1 {
+    color: rgb(78,128,136);
+}
+
+.justify-list-left, code {
+    text-align: left;
+    margin-left: 1em;
+}
+
+.space-right {
+    margin-right: 1em;
+}
+
+
+.remove-button {
+    text-decoration: none;
+    color: red;
+}
+
+.in-stock, .green {
+    color: rgba(73, 175, 9, 1);
+}
+
+p {
+    max-width: 60ch;
+    line-height: 1.4em;
+    margin: 0;
+    text-align: left;
+}
+
+.regular-p { 
+    line-height: 2em; 
+    margin-bottom: 1em; 
+}
+
+.product-title {
+    text-decoration: none;
+    margin-top: 0.5em;
+    font-size: 1.8em;
+    color: black;
+}
+
+.price {
+    font-size: 1.4em;
+    margin: 0.3em 0 0;
+    text-align: center;
+}
+
+hr {
+    margin: 0 1em;
+    border: 1px solid rgb(180,218,220);
+}
+
+a.nav-item {
+    color: #000;
+    text-decoration: none;
+}
+
+.links-list a:hover {
+    color: rgb(78,128,136);
+}
+
+.filter-box h3, .links-list h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.list-menu {
+    margin-left: 2em;
+    line-height: 2em;
+}
+
+.list-menu a {
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(180,218,220);
+    padding: 1em;
+    max-width: 15em;
+    margin-bottom: 1em;
+}
+
+.list-menu a:hover {
+    color: white;
+    background-color: rgb(78,128,136);
+}
+
+
+a.nav-item-addon {
+    font-size: 0.9em;
+    color: black;
+    text-decoration: none;
+}
+
+a.text-link {
+    color: rgb(180,218,220);
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+    line-height: 1.6em;
+}
+
+ol {
+    counter-reset: li;
+}
+
+ul li::before {
+    content: "\2022";
+    color: rgb(180,218,220);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ol li::before {
+    content: counter(li);
+    color: rgb(180,218,220);
+    width: 1em;
+    display: inline-block;
+    margin-left: -1em;
+}
+
+li {
+    counter-increment: li;
+}
+
+.logo {
+    background-color: rgb(235,208,184);
+}
+
+code {
+    //* background-color: rgb(237,244,243);
+    //* border-left: 1em solid rgb(78,128,136); *//
+    overflow: auto;
+}
+
+.module-code {
+    height: 6em;
+    overflow: auto;
+}
+
+.element {
+    border: 1px solid rgb(78,128,136);
+}
+
+.element-child, .element-label, .color-label {
+    padding: 1em;
+    justify-content: center;
+
+}
+
+.element-child-2 {
+    justify-content: center;
+}
+
+.element-label {
+    color: white;
+    width: 100%;
+    margin: 0;
+    align-self: flex-start;
+    background-color: rgb(78,128,136);
+}
+
+.module-code {
+    height: 6em;
+    overflow: auto;
+}
+
+.grid-code {
+    height: 6em;
+    overflow: auto;
+}
+
+button {
+    border: 0px;
+    padding: 1em;
+    margin: 1em;
+    color: white;
+    background-color: rgb(180,218,220);
+}
+
+.reset, .reset:hover, .clear {
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid transparent;
+}
+
+.reset:hover, .clear:hover {
+    border: 1px solid black;
+}
+
+.clear-button {
+    justify-content: flex-end;
+}
+
+.submit {
+    background-color: rgb(180,218,220);
+    color: black;
+}
+
+.submit:hover, .cta:hover {
+    background-color: rgb(78,128,136);
+    color: white;
+}
+
+input, select {
+    min-width: 20ch;
+    padding: 1em;
+    border: 1px solid rgb(180,218,220);
+    border-radius: 0px;
+}
+
+input:focus {
+    border: 1px solid black;
+}
+
+.circle {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+}
+
+.color-square-1, .color-square-2, .color-square-3, .color-square-4 {
+    height: 6em;
+}
+
+.color-square-1 {
+    background-color: rgb(235,208,184);
+}
+
+.color-square-2 {
+    background-color: rgb(180,218,220);
+}
+
+.color-square-3 {
+    background-color: rgb(78,128,136);
+}
+
+.color-square-4 {
+    background-color: #fff;
+    border: 1px solid #f9f9f9;
+}
+
+.color-label {
+    color: black;
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.slider {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+
+    height: 6px;
+    outline: 1px solid rgb(180,218,220);
+
+    padding: 0;
+    outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider:focus {
+    outline: 1px solid transparent;
+    border: none;
+    background-color: rgb(180,218,220);
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: rgb(78,128,136);
+  cursor: pointer;
+    border-radius: 20px;
+}
+
+.copyright {
+    justify-content: center;
+    font-size: 0.9em;
+    padding: 0.5em;
+    width: 100%;
+}

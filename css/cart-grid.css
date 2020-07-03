@@ -1,0 +1,122 @@
+.price-and-remove, .summary-product-info, .cart-container, .order-summary-sidebar, .shipping-method-with-date {
+    display: -ms-flex
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: column wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+}
+
+ .cart-with-order-summary, .summary-availability, .summary-product-listing-full, .order-summary-subtotal, .cart-top-bar, .summary-price, .summary-quantity, .order-summary-total, .item-section, .order-summary-quantity-and-price, .shipping-method-container, .shipping-method-choice, .billing-address-line, .edit-button, .order-summary-title-and-edit, .payment-method, .payment-box { 
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: row wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+}
+
+.cart-container {
+    flex: 2 1 auto;
+    margin-right: 2rem;
+}
+
+.item-section {
+    flex: 3 1 auto;
+}
+
+.summary-quantity {
+    flex: 1 1 auto;
+}
+
+.price-and-remove {
+    flex: 1 1 auto;
+}
+
+.summary-price {
+    justify-content: flex-end;
+    margin-right: 0.75em;
+}
+
+.top-bar-longer {
+    flex: 4 1 auto;
+}
+
+.top-bar-reg {
+    text-align: right;
+    flex: 1 1 auto;
+}
+
+.cart-top-bar {
+    justify-content: space-between;
+    padding: 0.75em 1.5em;
+}
+
+.order-summary-title-and-edit {
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.cart-with-order-summary {
+    margin: 2rem 4em;
+}
+
+.order-summary-sidebar {
+    flex: 1 1 auto;
+}
+
+.order-summary-subtotal, .order-summary-total {
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-summary-subtotal {
+    padding: 0.25em 0;
+}
+
+.order-summary-total {
+    margin: -1em 0;
+}
+
+.order-summary-all {
+    padding: 1em 0;
+}
+
+.summary-product-listing-full {
+    margin: 1.5em 0;
+    justify-content: space-between;
+}
+
+.summary-product-full-listing {
+    flex: 1 1 auto;
+}
+
+.summary-price, .summary-quantity {
+    flex: 1 1 auto;
+}
+
+.cta {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.order-summary-quantity-and-price, .shipping-method-container {
+    justify-content: space-between;
+}
+
+.payment-box {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment-method {
+   align-items: center;
+}
+
+.payment-icon {
+    margin-left: 1em;
+}
