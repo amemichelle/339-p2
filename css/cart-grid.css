@@ -1,30 +1,22 @@
-.price-and-remove, .summary-product-info, .cart-container, .order-summary-sidebar, .shipping-method-with-date {
+/* GENERAL */
+
+.item-section, .price-and-remove, .summary-product-info, .cart-container, .order-summary-sidebar, .shipping-method-with-date, .cart-with-order-summary, .summary-availability, .summary-product-listing-full, .order-summary-subtotal, .cart-top-bar, .summary-price, .summary-quantity, .order-summary-total, .order-summary-quantity-and-price, .shipping-method-container, .shipping-method-choice, .billing-address-line, .edit-button, .order-summary-title-and-edit, .payment-method, .payment-box {
     display: -ms-flex
     display: -webkit-flex;
     display: flex;
 
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+}
+
+.price-and-remove, .summary-product-info, .cart-container, .order-summary-sidebar, .shipping-method-with-date {
+
     flex-flow: column wrap;
-    flex-wrap: -ms-flex;
-    flex-wrap: -webkit-flex;
 }
 
- .cart-with-order-summary, .summary-availability, .summary-product-listing-full, .order-summary-subtotal, .cart-top-bar, .summary-price, .summary-quantity, .order-summary-total, .item-section, .order-summary-quantity-and-price, .shipping-method-container, .shipping-method-choice, .billing-address-line, .edit-button, .order-summary-title-and-edit, .payment-method, .payment-box { 
-    display: -ms-flex;
-    display: -webkit-flex;
-    display: flex;
-
+.cart-with-order-summary, .summary-availability, .order-summary-subtotal, .cart-top-bar, .summary-price, .summary-quantity, .order-summary-total, .order-summary-quantity-and-price, .shipping-method-container, .shipping-method-choice, .billing-address-line, .edit-button, .order-summary-title-and-edit, .payment-method, .payment-box {
+    
     flex-flow: row wrap;
-    flex-wrap: -ms-flex;
-    flex-wrap: -webkit-flex;
-}
-
-.cart-container {
-    flex: 2 1 auto;
-    margin-right: 2rem;
-}
-
-.item-section {
-    flex: 3 1 auto;
 }
 
 .summary-quantity {
@@ -86,16 +78,7 @@
     padding: 1em 0;
 }
 
-.summary-product-listing-full {
-    margin: 1.5em 0;
-    justify-content: space-between;
-}
-
-.summary-product-full-listing {
-    flex: 1 1 auto;
-}
-
-.summary-price, .summary-quantity {
+.summary-price, .summary-quantity, summary-product-info {
     flex: 1 1 auto;
 }
 
@@ -104,13 +87,12 @@
     margin-top: 2em;
 }
 
-.order-summary-quantity-and-price, .shipping-method-container {
+.order-summary-quantity-and-price, .shipping-method-container, .payment-box {
     justify-content: space-between;
 }
 
 .payment-box {
     align-items: center;
-    justify-content: space-between;
 }
 
 .payment-method {
@@ -119,4 +101,76 @@
 
 .payment-icon {
     margin-left: 1em;
+}
+
+.summary-product-listing-full {
+    margin: 1.5em 0;
+}
+
+/* MEDIA QUERIES*/
+
+/* mobile */
+
+@media(max-width:425px) {
+    
+    .summary-product-listing-full, .item-section, .cart-container {
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+    }
+    
+    .summary-price-label, h2.cart-header {
+        text-align: center;
+    }
+
+    .payment-method-choices, .billing-address-line {
+        align-self: center;
+    }
+    
+    hr.order-summary-hr, .order-info, .cart-container {
+        width: 100%;
+    }
+    
+    .summary-price {
+        margin: 0;
+    }
+    
+}
+
+/* tablet */
+
+@media(max-width:767px) {
+    
+    
+    
+}
+
+/* desktop */
+
+@media(min-width:768px) {
+    
+    
+    
+}
+
+/* tablet and desktop */
+
+@media(min-width:426px) {
+    
+    .item-section {
+        flex-flow: row wrap;
+        flex: 3 1 auto;
+    }
+    
+    .summary-product-listing-full {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    
+    .cart-container {
+        flex: 2 1 auto;
+        margin-right: 2rem;
+    }
+    
 }

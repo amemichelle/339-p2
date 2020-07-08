@@ -1,13 +1,27 @@
 /* Container */
 
-.about-body {
-    margin: 3em;
+body {
+    width: 100%;
+}
+
+h2.about-header {
+    margin: 1em 0 0.5em;
+    padding: 0;
+    margin-left: 0;
 }
 
 .about-item h3 {
     font-size: 1.5em;
     margin: 0;
     margin-bottom: 1em;
+}
+
+p.about-p {
+    text-align: center;
+}
+
+em {
+    
 }
 
 .about-body li {
@@ -19,13 +33,84 @@
     max-width: 50ch;
 }
 
-.icon-subtitle {
-    width: 50%;
+p.icon-subtitle {
     text-align: center;
+    width: 80%;
 }
 
 .icons-row {
-    margin: 3em 0;
+    margin: 3em 1em;
     padding: 0;
 }
 
+.copyright {
+    justify-content: center;
+    font-size: 0.9em;
+    padding: 0.5em;
+    width: 100%;
+}
+
+/* Banner */
+
+.banner-with-title {
+    background: url("about-banner.png") rgb(78,128,136);
+    height: 22em;
+    background-size: cover;
+    background-position: center;
+    
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-overlay-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    max-width: 80%;
+    color: white;
+    text-shadow: -.075em .075em rgb(78,128,136);
+
+}
+
+.about-p-overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 45ch;
+    padding: 2em;
+}
+
+.about-body-1 {
+    background: url("cafe-bar.jpg") rgb(78,128,136);
+    height: 33em;
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    border: 0px;
+    padding: 1em;
+    color: white;
+    background-color: rgb(78,128,136);
+}
+
+button.continue-shopping:hover {
+    color: black;
+    background-color: rgb(180,218,220);
+}
+
+.about-cta {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 2em 1em 3em;
+}
+
+/* MEDIA QUERIES */
+
+@media(min-width:1023px) {
+    
+    .centered-overlay-title {
+        font-size: 2.5em;
+    }
+}

@@ -1,3 +1,5 @@
+/* GENERAL + CONTAINERS */
+
 .thank-you-container, .summary-product-info, .thank-you-message, .order-info, .order-summary {
     display: -ms-flex
     display: -webkit-flex;
@@ -21,19 +23,6 @@
     flex-wrap: -webkit-flex;
 }
 
-.thank-you-container {
-    align-items: center;
-}
-
-.summary-product-info, .summary-product-title {
-    margin: 0;
-}
-
-h2.summary-product-title {
-    font-weight: 100;
-    font-size: 1.4em;
-}
-
 .thank-you-message, .order-info, .order-summary {
     background-color: #f9f9f9;
     padding: 1em 2em 2em;
@@ -42,35 +31,13 @@ h2.summary-product-title {
     align-content: center;
 }
 
-.icon-separator {
-    justify-content: center;
-    margin: 1em 0 2em;
-    padding: 0;
-}
-
-.icon-separator h3 {
-    padding: 0;
-    padding-top: 0.25em;
-    margin: 0;
-}
-
-.icon-separator img {
-    margin-right: 1em;
-}
-
-
 .thank-you-container {
+    align-items: center;
     align-content: center;
 }
 
-h2.thank-you-title {
-    text-align: center;
-    font-size: 2em;
-}
-
-.thank-you-container h3 {
-    font-weight: 100;
-    font-size: 1.3em;
+.summary-product-info, .summary-product-title {
+    margin: 0;
 }
 
 .address-box {
@@ -79,13 +46,63 @@ h2.thank-you-title {
     margin: 1em 0;
 }
 
+.summary-product-listing-full {
+    margin: 2em 0;
+}
+
+/* TEXT STYLING */
+
+h2.thank-you-title {
+    margin: 1em 0;
+    font-size: 1.5em;
+    text-align: center;
+    font-size: 2em;
+}
+
+h2.summary-product-title {
+    font-weight: 100;
+    font-size: 1.4em;
+}
+
 h3 {
     margin: 1em 0 0;
 }
 
-.summary-product-listing-full {
-    margin: 2em 0;
+.thank-you-container h3 {
+    font-weight: 100;
+    font-size: 1.3em;
 }
+
+.icon-separator h3 {
+    padding: 0;
+    padding-top: 0.25em;
+    margin: 0;
+}
+
+/* MEDIA QUERIES*/
+
+@media(max-width:425px) {
+    
+    .thank-you-container {
+        margin: 0;
+    }
+    
+    .order-summary {
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .summary-product-listing-full, .item-section, .summary-product-info, .order-summary-quantity-and-price p {
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
+
+
+/* INTERACTIVE ELEMENTS */
 
 button.continue-shopping {
     margin: 0 0 2em;
@@ -96,3 +113,19 @@ button.continue-shopping:hover {
     color: black;
     background-color: rgb(180,218,220);
 }
+
+/* DECORATIVE ELEMENTS */
+
+.icon-separator {
+    justify-content: center;
+    margin: 1em 0 2em;
+    padding: 0;
+}
+
+/* IMAGES */
+
+.icon-separator img {
+    margin-right: 1em;
+}
+
+

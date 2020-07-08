@@ -1,0 +1,202 @@
+/* BANNER */
+
+.banner-with-title {
+    background: url("about-banner.png") rgb(78,128,136);
+    height: 22em;
+    background-size: cover;
+    background-position: center;
+    
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-overlay-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    max-width: 80%;
+    color: white;
+    text-shadow: -.075em .075em rgb(78,128,136);
+}
+
+/* FILTER */
+
+.checkbox {
+    margin: 1em 0;
+}
+
+.checkbox input[type="checkbox"] {
+    opacity: 0;
+    cursor: pointer;
+    min-width: 3em;
+}
+
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    
+    height: 1.5em;
+    width: 1.5em;
+    border: 1px solid rgb(78,128,136);
+}
+
+.checkbox label::after {
+    content: "\2713";
+    display: inline-block;
+    color: rgb(78,128,136);
+}
+
+.checkbox label {
+    position: relative;
+}
+
+.checkbox label::before, .checkbox label::after {
+    position: absolute;
+}
+
+.checkbox label::before {
+    left: -40px;
+    top: -0.4em;
+}
+
+.checkbox label::after {
+    left: -36px;
+    top: -6px;
+    font-size: 1.4em;
+}
+
+.checkbox input[type="checkbox"] + label::after {
+    content: none;
+}
+
+.checkbox input[type="checkbox"]:checked + label::after {
+    content: "\2713";
+}
+
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: blue auto 5px;
+}
+
+/* PRODUCT LISTINGS */
+
+.product-listing {
+    margin: 1em;
+    align-content: center;
+}
+
+.product-label-box a {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.footer-menus {
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.order-history-container, .product-listing-full-width { 
+    width: 100%; 
+}
+
+.image-box img {
+    max-height: 14em;
+    max-width: 14em;
+}
+
+.sold-out-img {
+    opacity: 0.5;
+}
+
+.star-rating, .summary-star-rating {
+    width: 6em;
+    align-self: center;
+    margin: 0.5em;
+}
+
+.product-title {
+    text-decoration: none;
+    margin-top: 0.5em;
+    font-size: 1.4em;
+    color: black;
+    max-width: 18ch;
+}
+
+.price {
+    font-size: 1.4em;
+    margin: 0.3em 0 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TEXT STYLING */
+
+a.product-title:hover {
+    color: rgb(180,218,220);
+}
+
+em.sale {
+    text-decoration: line-through;
+    color: black;
+    font-size: 0.7em;
+    margin-right: 0.5em;
+}
+
+em.sold-out-label {
+    color: #ff3838;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+
+.discounted {
+    color: coral;
+}
+
+.sold-out {
+    color: #9c9c9c;
+}
+
+/*.links-list a {
+    color: rgb(78,128,136);
+    line-height: 2em;
+    text-decoration: none;
+}
+
+.links-list a:hover {
+    color: rgb(78,128,136);
+}*/
+
+/* BUTTONS */
+
+.special-offer {
+    width: 100%;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    background-color: coral;
+    color: white;
+    border: 0px;
+}
+
+.special-offer:hover {
+    background-color: #e06231;
+}
+
+/* COPYRIGHT */
+
+.copyright {
+    justify-content: center;
+    font-size: 0.9em;
+    padding: 0.5em;
+    width: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media(min-width:1023px) {
+    
+    .centered-overlay-title {
+        font-size: 2.5em;
+    }
+}

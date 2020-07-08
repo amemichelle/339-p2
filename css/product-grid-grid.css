@@ -1,23 +1,23 @@
-.grid-container, .filter-checkbox-container, .checkbox-line { 
+/* FLEXBOX SETTINGS */
+
+.grid-container, .filter-checkbox-container, .checkbox-line, .filter-sidebar-box, .main-listings-box, .product-categories, .filter-category-box, .banner-with-title, .product-listing, .product-label-box, .copyright, .price {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
 
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+}
+
+.filter-checkbox-container, .checkbox-line, .main-listings-box, .banner-with-title, .copyright, .price { 
     flex-flow: row wrap;
-    flex-wrap: -ms-flex;
-    flex-wrap: -webkit-flex;
 }
 
-.filter-sidebar-box {
-    display: -ms-flex;
-    display: -webkit-flex;
-    display: flex;
-
+.product-listing, .product-label-box {
     flex-flow: column wrap;
-    flex-wrap: -ms-flex;
-    flex-wrap: -webkit-flex;
-    align-content: flex-start;
 }
+
+/* EVERYTHING */
 
 .grid-container {
     margin: 1em 1em;
@@ -27,50 +27,74 @@
     width: 100%;
 }
 
-.checkbox-line {
-    align-content: center;
+/* FILTER */
+
+.filter-sidebar-box {
+    flex: 1 1 10%;
+    align-items: flex-start;
 }
 
-.filter-box {
-    margin: 1em 0;
+.filter-category-box{
+    min-width: 20em;
 }
 
-/*[type="checkbox"]:not(:checked),
-[type="checkbox"]:checked {
-    position: absolute;
-    left: -9999px;
+
+
+/* LISTINGS GRID */
+
+.main-listings-box {
+    flex: 3 1 70%;
+    justify-content: center;
 }
 
-[type="checkbox"]:not(:checked) + label,
-[type="checkbox"]:checked + label {
-    position: relative;
-    padding-left: 1.95em;
-    cursor: pointer;
+/* MEDIA QUERIES */
+
+@media(min-width:768px) {
+    .grid-container { 
+        flex-flow: row wrap;
+    }
+    
+    .filter-category-box {
+        flex-flow: column wrap;
+    }
+    
+    .filter-sidebar-box {
+        flex-flow: column wrap;
+        align-self: flex-start;
+        width: 10em;
+        padding-left: 2em;
+    }
+    
+    form.product-categories {
+        flex-flow: column wrap;
+    }
+   
+    /* .main-listings-box {
+        border-left: 1px solid black;
+    }*/
 }
 
-[type="checkbox"]:not(:checked) + label:before,
-[type="checkbox"]:checked + label:before {
-    content: '';
-    position: absolute;
-    left: 0; 
-    top: 0;
-    width: 1.25em; 
-    height: 1.25em;
-    border: 1px solid rgb(78,128,136);
+@media(max-width:767px) {
+    .grid-container { 
+        flex-flow: column wrap;
+    }
+    
+    .filter-category-box {
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    
+    .filter-sidebar-box {
+        flex-flow: row wrap;
+        max-width: 100%;
+        align-self: center;
+    }
+    
+    .filter-sidebar-box h3, .filter-category-box h4 {
+        margin-right: 1em;
+    }
+    
+    form.product-categories {
+        flex-flow: row wrap;
+    }
 }
-
-[type="checkbox"]:checked + label:after {
-    content: '\00D7';
-    position: absolute;
-    top: .08em; left: .10em;
-    font-size: 1.3em;
-    color: rgb(78,128,136);
-}
-
-label:hover:before {
-  border: 1px solid black !important;
-}*/
-
-/*#coffee-listing {
-    display: none;
-}*/

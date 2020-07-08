@@ -69,23 +69,6 @@
   border-bottom: 8px solid white;
 }
 
-/* Banner */
-
-.banner-with-title {
-    position: relative;
-    text-align: center;
-}
-
-.centered-overlay-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3em;
-    font-weight: bold;
-    color: white;
-}
-
 /* Menues */
 
 
@@ -197,13 +180,6 @@ p {
     margin-bottom: 1em; 
 }
 
-.product-title {
-    text-decoration: none;
-    margin-top: 0.5em;
-    font-size: 1.8em;
-    color: black;
-}
-
 .price {
     font-size: 1.4em;
     margin: 0.3em 0 0;
@@ -218,16 +194,6 @@ hr {
 a.nav-item {
     color: #000;
     text-decoration: none;
-}
-
-.links-list a:hover {
-    color: rgb(78,128,136);
-}
-
-.filter-box h3, .links-list h3 {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 0.5em;
 }
 
 .list-menu {
@@ -342,7 +308,7 @@ button {
     padding: 1em;
     margin: 1em;
     color: white;
-    background-color: rgb(180,218,220);
+    background-color: rgb(78,128,136);
 }
 
 .reset, .reset:hover, .clear {

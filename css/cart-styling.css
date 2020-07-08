@@ -1,18 +1,22 @@
+/* GENERAL */
+
 .cart-with-order-summary {
     margin-bottom: 4em;
-}
-    
+}   
+
+/* TEXT STYLING */
+
 .cart-header {
     font-family: "Acumin Pro Light", "Akzidenz-Grotesk BQ Light", Helvetica, Arial, sans-serif;
-    
+    margin: 1em 0;
+    font-size: 1.5em;
 }
 
-.cart-top-bar {
-    background-color: rgb(78,128,136);
-    color: white;
+h3.order-summary-small-title {
+    padding: 0;
+    margin: 0;
     font-size: 1.2em;
-    font-weight: lighter;
-    letter-spacing: 0.05em;
+    font-weight: bold;
 }
 
 .summary-price, .summary-quantity, .summary-product-title {
@@ -35,10 +39,21 @@
     margin: 0;
 }
 
-.price-label, .availability, .summary-availability .space-above {
-    margin-top: 1em;
+.summary-actions p {
+    padding: 0 0.5em;
 }
 
+.summary-weight-gramms {
+    font-size: 1.5em;
+}
+
+.estimated-delivery {
+    color: rgb(180,218,220);
+    font-size: 0.9em;
+}
+
+
+/* INTERACTIVE ELEMENT STYLING */
 
 .remove-button {
     text-align: right;
@@ -56,23 +71,38 @@
 
 .cta {
     background-color: rgb(78,128,136);
+    margin: 2em 0;
 }
 
 .cta:hover {
     background-color: rgb(180,218,220);
 }
 
-.summary-actions p {
-    padding: 0 0.5em;
+.paypal-button {
+    background-color: #003087;
 }
 
-.summary-weight-gramms {
-    font-size: 1.5em;
+#first-radio-option {
+    margin-right: 1em;
+}
+
+/* DIVIDERS */
+
+.cart-top-bar {
+    background-color: rgb(78,128,136);
+    color: white;
+    font-size: 1.2em;
+    font-weight: lighter;
+    letter-spacing: 0.05em;
+}
+
+/*.price-label, .availability, .summary-availability .space-above {
+    margin-top: 1em;
 }
 
 .weight-input {
     max-width: 20ch;
-}
+}*/
 
 .ratings, .summary-ratings {
     align-items: flex-end;
@@ -101,10 +131,6 @@
     cursor: pointer;
 }
 
-label {
-    margin-right: 4em;
-}
-
 #shipping-method-standard, #paypal-method, #credit-card-method, #billing-address {
     height: 1em;
     width: 1em;
@@ -126,15 +152,6 @@ input[type=radio]:checked {
     padding: 0;
 }
 
-.estimated-delivery {
-    color: rgb(180,218,220);
-    font-size: 0.9em;
-}
-
-.paypal-button {
-    background-color: #003087;
-}
-
 .edit {
     color: rgb(78,128,136);
     font-size: 1.2em;
@@ -153,15 +170,39 @@ input[type=radio]:checked {
     margin-top: 2em;
 }
 
-h3.order-summary-small-title {
-    padding: 0;
-    margin: 0;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
 .address-box, .payment-box {
     border: 1px solid black;
     padding: 1em;
     margin: 1em 0;
 }
+
+/* MEDIA QUERIES*/
+
+/* mobile */
+
+@media(max-width:425px) {
+    
+    .cart-top-bar {
+        display: none;
+    }
+    
+}
+
+/* tablet */
+
+@media(max-width:767px) {
+    
+    
+    
+}
+
+/* desktop */
+
+@media(min-width:768px) {
+    
+   /* label {
+        margin-right: 4em;
+    }*/
+    
+}
+
