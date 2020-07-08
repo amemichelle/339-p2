@@ -77,7 +77,30 @@ a.nav-right-link:hover{
 
 /* NAVIGATION CSS */
 
+/*BANNER CSS */
+
+.banner-img{
+  width:100%;
+  min-height: 150px;
+  background-color:rgb(78,128,136);
+}
+
+/*BANNER CSS */
+
 /* DETAILED PRODUCT LISTING CSS */
+
+.product-full-listing{
+  padding-top:3rem;
+  padding-left:3rem;
+  padding-right:3rem;
+
+}
+
+.product-info{
+  margin-top:1rem;
+  margin-left:2rem;
+}
+
 .product-title {
     text-decoration: none;
     margin-top: 0.5em;
@@ -86,7 +109,7 @@ a.nav-right-link:hover{
 }
 
 .availability {
-    margin-top: 1em;
+    margin-top: -0.5em;
 }
 
 .price {
@@ -102,10 +125,8 @@ a.nav-right-link:hover{
 .cta {
   border:none;
   padding:0.8rem;
-  padding-left:2rem;
-  padding-right:2rem;
-  margin-top:1rem;
-  margin-left:3rem;
+
+  width:14rem;
   margin-bottom:1.5rem;
   transition:0.5s;
   background-color: rgb(180,218,220);
@@ -119,6 +140,7 @@ a.nav-right-link:hover{
 
 .weight-input {
     max-width: 20ch;
+    padding:0.5rem;
 }
 
 .weight-gramms {
@@ -128,14 +150,31 @@ a.nav-right-link:hover{
 
 .product-hr {
     border: 1px solid black;
-    max-width: 65ch;
+    max-width: 140ch;
+    margin-left:3rem;
+    margin-bottom:3rem;
+    margin-top:3rem;
 
-    margin: 0.5em 0 0;
 }
 
-
 .space-above {
+    font-size:1.1rem;
     margin-top: 1em;
+    margin-left:3rem;
+    max-width:50rem;
+}
+
+a.product-in-text-link {
+    display:flex;
+    color: rgb(78,128,136);
+    text-decoration: none;
+    margin-top:0.1rem;
+    margin-left:0.5rem;
+}
+
+a.product-in-text-link:hover {
+    color: rgb(0,0,0);
+    text-decoration: none;
 }
 
 a.text-link {
@@ -148,9 +187,180 @@ a.text-link:hover {
     text-decoration: none;
 }
 
+.star-rating {
+  display:flex;
+  width: 7em;
+  align-self: center;
+}
 
+.caffine-levels{
+  margin-top:-0.9rem;
 
+}
+
+.choose-weight{
+  margin-top:-1rem;
+}
+
+h3{
+  margin-left:3rem;
+}
+
+@media screen and (max-width:48rem) {
+
+  .product-info{
+    margin-left:3.5rem;
+    text-align: center;
+  }
+
+  .ratings{
+    margin-left:1rem;
+  }
+    .choose-weight{
+      margin-left:1.2rem;
+    }
+
+    .product-hr{
+      margin-right:5rem;
+    }
+
+    .space-above{
+      margin-right:3rem;
+    }
+
+  }
+}
 /* DETAILED PRODUCT LISTING CSS */
+
+/* SIMILAR PRODUCT CAROUSEL CSS */
+
+.similar-items{
+  background-color:rgb(224,236,236);
+}
+
+.similar-items-carousel {
+    justify-content: space-around;
+    padding: 1em 5em;
+    width: 100%;
+}
+
+.product-listing {
+    margin: 1em;
+    align-items: center;
+    align-content: flex-start;
+}
+
+/* SIMILAR PRODUCT CAROUSEL CSS */
+
+/* RE.VIEW FORM */
+
+.m-element {
+   margin-top: 1em;
+   margin-left: 2em;
+   margin-right:4em;
+}
+
+h2 {
+  margin-top:2rem;
+
+  font-size:3rem;
+}
+
+input.form-input {
+  margin-right:1rem;
+  min-width: 40ch;
+  padding: 1.1em;
+  border: 1px solid rgb(180,218,220);
+  border-radius: 0px;
+}
+
+
+ textarea {
+   min-width: 20ch;
+   padding: 1.1em;
+   border: 1px solid rgb(180,218,220);
+   border-radius: 0px;
+  min-width: 20ch;
+  padding: 1em;
+  border: 1px solid rgb(180,218,220);
+  border-radius: 0px;
+}
+
+select{
+  min-width: 40ch;
+  padding: 1em;
+  border: 1px solid rgb(180,218,220);
+  border-radius: 0px;
+}
+
+
+button.save-button {
+      padding: 0.5rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      border: none;
+      background-color: rgb(78,128,136);
+      transion: 0.5s;
+      margin-left: 0rem;
+      color:white;
+}
+
+button.save-button:hover, button.save-button:active{
+  background-color:rgb(229,197,168);
+}
+
+/* RE.VIEW FORM */
+
+/* RE.VIEW CSS */
+p.reviewer-name-rating{
+  display:block;
+  text-align:left;
+  font-weight:bold;
+  font-size:1.3rem;
+  margin-bottom:0.5rem;
+}
+
+
+p.review-content {
+
+  text-align:left;
+
+}
+
+div.review-tile{
+  margin-top:2rem;
+  padding-left:2rem;
+  max-width:60rem;
+  margin-left:1rem;
+
+}
+
+span.divider {
+  color: rgb(212,1,62);
+}
+
+span.post-date{
+  font-weight:lighter;
+  font-size:0.9rem;
+  float: right;
+}
+
+@media screen and (max-width:48rem) {
+
+  .review-tile{
+  margin-right:4rem;
+  }
+
+  input.form-input{
+    margin-right:0rem;
+  }
+
+  .save-button{
+   margin-right:-0.5rem;
+  }
+
+}
+/* RE.VIEW CSS */
 
 
 /* FOOTER CSS */

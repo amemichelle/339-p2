@@ -3,7 +3,7 @@
 }
 
 /* NAVIGATION + PROMOTION CSS */
-.nav-items, .footer-menus, .product-info, .ratings{
+.nav-items, .footer-menus, .product-full-listing, .ratings{
   display: -ms-flex;
   display: -webkit-flex;
   display: flex;
@@ -21,22 +21,13 @@
 
 /* DETAILED PRODUCT LISTING CSS */
 
-.product-full-listing-width{
-    flex: 3 1 auto;
-    margin-left: 1em;
+.product-main-img{
+  display: flex;
+  flex: 40% 60% 0;
 }
 
 .ratings {
-    align-items: flex-end;
-}
-
-.ratings a {
-   margin-left: 0.3em;
-}
-
-.star-rating {
-    width: 7em;
-    align-self: center;
+  flex:1 1 0;
 }
 
 .price-label {
@@ -58,12 +49,135 @@
 
 /* DETAILED PRODUCT LISTING CSS */
 
+/* RE.VIEW FORM CSS */
+
+.m-element {
+    flex: 1 1 auto;
+    padding:1rem;
+    margin-bottom: 1em;
+}
+
+label{
+  align-self:flex-start
+}
+
+ .shipping-form-col-2 {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: row wrap;
+}
+
+
+
+.label-and-field {
+    margin-top: 1em;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+}
+
+.star-field{
+  margin-top: 1em;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  flex-wrap: -ms-flex;
+  flex-wrap: -webkit-flex;
+  flex-flow: row wrap;
+  flex: 1 1 auto;
+}
+
+.save-button {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+/* RE.VIEW CSS */
+
+
+
+/* SIMILAR PRODUCT CAROUSEL CSS */
+
+.similar-items-carousel{
+
+      display: -ms-flex;
+      display: -webkit-flex;
+      display: flex;
+
+      flex-flow: row wrap;
+      flex-wrap: -ms-flex;
+      flex-wrap: -webkit-flex;
+
+}
+
+ .product-label-box {
+    align-items: center;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column wrap;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+}
+}
+
+.product-listing {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    align-items: center;
+}
+
+h3{
+}
+/* SIMILAR PRODUCT CAROUSEL CSS */
+
+
 /* FOOTER CSS */
 
 .footer-link-group{
   flex:1 1 0;
-    margin-left: 2em;
+  margin-left: 2em;
+  min-width:10rem;
 }
+
+  /* MAP CODE FROM https://www.embedgooglemap.net/en/?gclid=Cj0KCQjwoub3BRC6ARIsABGhnybub3e9vb6E3otZ0PO2aRUZdWCR96_L8D4HjCItrQsMlXWD8PclpjoaAvHnEALw_wcB */
+
+.mapouter {
+  display:flex;
+  text-align: right;
+  height: 231px;
+  width: 318px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 231px;
+  width: 318px;
+}
+
+/* MAP CODE FROM https://www.embedgooglemap.net/en/?gclid=Cj0KCQjwoub3BRC6ARIsABGhnybub3e9vb6E3otZ0PO2aRUZdWCR96_L8D4HjCItrQsMlXWD8PclpjoaAvHnEALw_wcB */
+
 
 .footer-link-group h5 {
     align-self: flex-start;
@@ -72,5 +186,18 @@
     margin: 0 0 1em;
     font-size: 1em;
 }
+
+@media screen and (max-width:48rem) {
+
+
+  .footer-link-group{
+    flex:2 1 0;
+      margin-left: 1em;
+  }
+
+
+
+  }
+
 
 /* FOOTER CSS */
