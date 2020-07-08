@@ -21,6 +21,15 @@
 
 /* SHIPPING FORM CSS */
 
+.m-element {
+    flex: 1 1 auto;
+    padding:1rem;
+    margin-bottom: 1em;
+}
+
+label{
+  align-self:flex-start
+}
 
  .shipping-form-col-2 {
     display: -ms-flex;
@@ -44,6 +53,25 @@
     flex: 1 1 auto;
 }
 
+.save-button {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+@media screen and (max-width:48rem) {
+
+.save-button{
+  justify-content:flex-start;
+}
+
+}
 
 /* SHIPPING FORM CSS */
 
