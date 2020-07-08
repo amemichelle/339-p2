@@ -77,80 +77,12 @@ a.nav-right-link:hover{
 
 /* NAVIGATION CSS */
 
-/*BANNER CSS */
-
-.banner-img{
-  width:100%;
-  min-height: 150px;
-  background-color:rgb(78,128,136);
-}
-
-/*BANNER CSS */
-
-/* CONTACT FORM */
-
-.m-element {
-   margin-top: 1em;
-   margin-left: 4em;
-   margin-right:4em;
-}
-
-h2 {
-  margin-top:2rem;
-
-  font-size:3rem;
-}
-
-input.form-input, textarea.form-input {
-  margin-right:1rem;
-  min-width: 10ch;
-  padding: 1em;
-  border: 1px solid rgb(180,218,220);
-  border-radius: 0px;
-}
 
 
 
 
-button.save-button {
-      padding: 0.5rem;
-      padding-left: 3rem;
-      padding-right: 3rem;
-      border: none;
-      background-color: rgb(78,128,136);
-      transion: 0.5s;
-      margin-left: 0rem;
-      color:white;
-}
-
-button.save-button:hover, button.save-button:active{
-  background-color:rgb(229,197,168);
-}
-
-@media screen and (max-width:48rem) {
-
-.m-element{
-  margin-left:2rem;
-  margin-right:1rem;
-}
-
-input.form-input{
-  margin-right:1rem;
-}
-
-button.save-button {
-padding-top:0.5rem;
-padding-bottom:0.5rem;
-margin-left:-1rem;
-padding-left:9.2rem;
-padding-right:9.2rem;
-
-}
 
 
-}
-
-/* CONTACT FORM */
 
 
 /* FOOTER CSS */

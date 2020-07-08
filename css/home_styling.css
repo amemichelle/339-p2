@@ -155,6 +155,10 @@ a.nav-right-link:hover{
   height:388px;
 }
 
+.promotion-bg{
+  background-color: !important rgb(178,213,209);
+}
+
 
 .promo-header {
   font-size:1.6rem;
@@ -185,16 +189,6 @@ a.nav-right-link:hover{
 
 .cta:hover{
   background-color:rgb(78,128,136);
-}
-
-@media screen and (max-width:48rem) {
-
-.cta{
-  align-self:center;
-  padding-left:7rem;
-  padding-right:7rem;
-}
-
 }
 
 h2{
