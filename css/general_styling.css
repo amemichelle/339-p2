@@ -161,7 +161,6 @@
 
 /* Text selectors */
 
->>>>>>> Stashed changes
 h1 {
     color: rgb(78,128,136);
 }
@@ -192,9 +191,9 @@ p {
     text-align: left;
 }
 
-.regular-p { 
-    line-height: 2em; 
-    margin-bottom: 1em; 
+.regular-p {
+    line-height: 2em;
+    margin-bottom: 1em;
 }
 
 .product-title {
@@ -295,8 +294,8 @@ li {
 }
 
 code {
-    //* background-color: rgb(237,244,243);
-    //* border-left: 1em solid rgb(78,128,136); *//
+    /* background-color: rgb(237,244,243);
+    /* border-left: 1em solid rgb(78,128,136); */
     overflow: auto;
 }
 

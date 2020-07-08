@@ -13,7 +13,7 @@
   flex-wrap: -webkit-flex;
 }
 
-.left-nav-tems. .right-nav-items, .promotion-items{
+.left-nav-items .right-nav-items, .promotion-items{
   flex:1 1 0;
 }
 

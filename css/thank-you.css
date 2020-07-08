@@ -1,18 +1,18 @@
 .thank-you-container, .summary-product-info, .thank-you-message, .order-info, .order-summary {
-    display: -ms-flex
+    display: -ms-flex;
     display: -webkit-flex;
     display: flex;
 
     flex-flow: column wrap;
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
-    
+
     margin-top: 4em;
-    
+
 }
 
 .item-section, .icon-separator {
-    display: -ms-flex
+    display: -ms-flex;
     display: -webkit-flex;
     display: flex;
 

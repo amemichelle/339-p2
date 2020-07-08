@@ -108,7 +108,7 @@ a.nav-right-link:hover{
   margin:auto;
   background-color:rgb(139,186,180);
   margin-top:2rem;
-  align-content: :center;
+  align-content:center;
 
   /* PROMOTIONS ANIMATION CSS */
   /* CSS ANIMATION TUTORIAL REFERENCED https://css-tricks.com/snippets/css/keyframe-animation-syntax/ */

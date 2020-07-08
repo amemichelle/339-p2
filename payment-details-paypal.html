@@ -16,69 +16,70 @@
 </head>
 <body>
 
-    <!-- TOP BAR NAVIGATION -->
+  <!-- TOP BAR NAVIGATION -->
     <nav class="nav-items">
           <div class="center-align">
-              <a href="index.html" class="nav-left-link"><img src="img/logo_icon.png" height="32px"></a>
+              <a href="index.html" class="nav-left-link"><img src="img/logo_icon.png" height="32" alt="an illustration of the company's logo"></a>
               <a href="about.html" class="nav-left-link">About Us</a>
               <a href="products.html" class="nav-left-link">Products</a>
               <a href="contact.html" class="nav-left-link">Contact</a>
 
               <div class="right-nav-items">
-                  <a href="#" class="nav-right-link"><img src="img/profile_icon.png" height="32px"></a>
-                  <a href="cart.html" class="nav-right-link"> <img src="img/cart_icon.png" height="32px"></a>
+                  <a href="#" class="nav-right-link"><img src="img/profile_icon.png" height="32" alt="an illustrated icon of a person that leads to the shop's profile page."></a>
+                  <a href="cart.html" class="nav-right-link"> <img src="img/cart_icon.png" height="32" alt="an illustrated icon of cart that leads to the shopping cart page."></a>
               <div class="search-bar">
                   <input class="search-text" type="text" placeholder="Search for something!"></div>
-                  <button class="search-button"><img src="img/search_icon.png" height="24px"></button>
+                  <button class="search-button"><img src="img/search_icon.png" height="24" alt="an illustrated icon of a magnifying glass that allows people to search for products."></button>
               </div> <!-- End of search-bar div -->
           </div> <!-- End of center-align div -->
+
     </nav>
-    <!-- END OF TOP BAR NAVIGATION -->
-  
+  <!-- TOP BAR NAVIGATION -->
+
     <!-- CART & ORDER SUMMARY -->
     <div class="cart-with-order-summary">
-    
-    
+
+
     <!-- CART WITH ITEMS -->
     <div class="cart-container">
-     
+
         <h2 class="cart-header">Payment Details</h2>
 
         <hr class="order-summary-hr">
-            
+
             <div class="payment-method-choices">
-                  
+
 
                       <input class="input-radio" type="radio" name="credit-card" value="credit" id="credit-card-method" onchange="window.location.replace('payment-details.html')">
                       <label for="credit-card-method">Credit Card</label>
 
                     <input class="input-radio" type="radio" name="paypal" value="paypal" id="paypal-method" checked="checked" onchange="window.location.replace('payment-details-paypal.html')">
-                
+
                 <label for="paypal-method">PayPal</label>
-                
+
             </div>
 
 
-           
+
            <!--
             <div class="save-button">
               <button type="button" class="cta" href="#">Save</button>
             </div>
             -->
 
-     
+
       </div> <!-- End of cart-container div -->
-      
-      
-  <!-- CHECKOUT SIDEBAR -->    
+
+
+  <!-- CHECKOUT SIDEBAR -->
   <div class="order-summary-sidebar">
-     
+
       <h2 class="cart-header">Order Summary</h2>
-      
+
       <hr class="order-summary-hr">
-      
+
       <div class="order-summary-all">
-         
+
           <div class="order-summary-subtotal">
               <p><em>SUBTOTAL</em></p>
               <p><em>$44.50</em></p>
@@ -93,31 +94,30 @@
               <p>Shipping</p>
               <p>TBD</p>
           </div>
-          
+
           <div class="order-summary-total">
               <h4>TOTAL:</h4>
               <p>$49.84</p>
           </div>
-          
+
       </div> <!-- End of order-summary-all -->
-      
+
       <hr class="order-summary-hr">
-      
+
       <div class="action-button">
-           <a href="https://www.paypal.com" target="_blank">
-               <button type="button" class="cta paypal-button">Continue to <em>PayPal</em></button>
-           </a>
-            
+
+               <a class="cta paypal-button" href="https://www.paypal.com">Continue to <em>PayPal</em></a>
+
         </div>
-        
+
         <h2 class="cart-header">Items in This Order (2)</h2>
-        
+
         <div class="summary-product-listing-full">
 
              <div class="item-section">
-                
-                 <img src="img/beach-ball-blend.jpg" class="summary-product-image" alt="A gift set of two california mugs, one of which has the black logo on white, and the other is colored logo on sand colored mug." height="120px">
-             
+
+                 <img src="img/beach-ball-blend.jpg" class="summary-product-image" alt="A gift set of two california mugs, one of which has the black logo on white, and the other is colored logo on sand colored mug." height="120">
+
                  <div class="summary-product-full-listing">
 
                      <div class="summary-product-info">
@@ -130,21 +130,21 @@
                          </div> <!-- End of order-summary-quantity-and-price div -->
 
                      </div> <!-- End of summary-product-info div -->
-                     
+
                 </div> <!-- End of product-full-listing div -->
 
-                
 
-             </div> 
-            
+
+             </div>
+
         </div> <!-- End of product-listing div -->
-        
+
         <div class="summary-product-listing-full">
 
              <div class="item-section">
-                
-                 <img src="img/mug-set-optimized.png" class="summary-product-image" alt="A gift set of two california mugs, one of which has the black logo on white, and the other is colored logo on sand colored mug." height="120px">
-             
+
+                 <img src="img/mug-set-optimized.png" class="summary-product-image" alt="A gift set of two california mugs, one of which has the black logo on white, and the other is colored logo on sand colored mug." height="120">
+
                  <div class="summary-product-full-listing">
 
                      <div class="summary-product-info">
@@ -157,20 +157,21 @@
                          </div> <!-- End of order-summary-quantity-and-price div -->
 
                      </div> <!-- End of summary-product-info div -->
-                     
+
                 </div> <!-- End of product-full-listing div -->
 
-                
 
-             </div> 
-            
+
+             </div>
+
         </div> <!-- End of product-listing div -->
   </div>
 
     </div><!-- CART & ORDER SUMMARY -->
 
-</body>
+
 <div class="copyright">
     <p>Copyright &copy; 2020 California Caf&eacute; &amp; Bakery</p>
 </div>
+</body>
 </html>

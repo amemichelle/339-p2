@@ -229,7 +229,7 @@ h3{
     }
 
   }
-}
+
 /* DETAILED PRODUCT LISTING CSS */
 
 /* SIMILAR PRODUCT CAROUSEL CSS */
@@ -300,7 +300,7 @@ button.save-button {
       padding-right: 3rem;
       border: none;
       background-color: rgb(78,128,136);
-      transion: 0.5s;
+      transition: 0.5s;
       margin-left: 0rem;
       color:white;
 }

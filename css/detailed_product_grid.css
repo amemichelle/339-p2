@@ -21,11 +21,6 @@
 
 /* DETAILED PRODUCT LISTING CSS */
 
-.product-main-img{
-  display: flex;
-  flex: 40% 60% 0;
-}
-
 .ratings {
   flex:1 1 0;
 }
@@ -136,7 +131,7 @@ label{
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
 }
-}
+
 
 .product-listing {
     display: -ms-flex;
