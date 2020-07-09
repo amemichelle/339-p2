@@ -1,6 +1,6 @@
 /* GENERAL */
 
-.item-section, .price-and-remove, .summary-product-info, .cart-container, .order-summary-sidebar, .shipping-method-with-date, .cart-with-order-summary, .summary-availability, .summary-product-listing-full, .order-summary-subtotal, .cart-top-bar, .summary-price, .summary-quantity, .order-summary-total, .order-summary-quantity-and-price, .shipping-method-container, .shipping-method-choice, .billing-address-line, .edit-button, .order-summary-title-and-edit, .payment-method, .payment-box, .copyright {
+.item-section, .price-and-remove, .summary-product-info, .cart-container, .order-summary-sidebar, .shipping-method-with-date, .cart-with-order-summary, .summary-availability, .summary-product-listing-full, .order-summary-subtotal, .cart-top-bar, .summary-price, .summary-quantity, .order-summary-total, .order-summary-quantity-and-price, .shipping-method-container, .shipping-method-choice, .billing-address-line, .edit-button, .order-summary-title-and-edit, .payment-method, .payment-box, .copyright, div.action-button, div.paypal-button {
     display: -ms-flex
     display: -webkit-flex;
     display: flex;

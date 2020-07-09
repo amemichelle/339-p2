@@ -1,3 +1,82 @@
+/* NAVIGATION CSS */
+
+.nav-items {
+  background-color: rgb(180,218,220);
+  height:80px;
+  position:sticky;
+  top:0;
+}
+
+.right-nav-items{
+  display:flex;
+  flex-grow:1;
+  justify-content:flex-end;
+  margin-right:1rem;
+}
+
+.center-align{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%
+}
+
+a.nav-left-link {
+  text-decoration:none;
+  font-weight:600;
+  color:rgb(0,0,0);
+  transition:0.5s;
+  padding-left:1rem;
+  padding-right:1rem;
+
+}
+
+a.nav-left-link:hover{
+  color:rgb(78,128,136);
+}
+
+.nav-icon{
+  display:flex;
+}
+
+a.nav-right-link {
+  transition:0.5s;
+  padding-left:1rem;
+  padding-right:1rem;
+  text-align:right;
+}
+
+a.nav-right-link:hover{
+  border-bottom:2px solid rgb(78,128,136);
+}
+
+.search-bar{
+  display:flex;
+  padding-left:1rem;
+}
+
+.search-text{
+  font-size:0.8rem;
+  padding:0.8rem;
+  border:none;
+  border-radius:15px 0px 0px 15px;
+
+}
+
+.search-button{
+  padding:0.35rem;
+  border:none;
+  background-color:rgb(255,255,255);
+  transition:0.5s;
+  border-radius:0px 15px 15px 0px;
+}
+
+.search-button:hover{
+  background-color:rgb(78,128,136);
+}
+
+/* NAVIGATION CSS */
+
 /*BANNER CSS */
 
 .banner-img{
@@ -70,7 +149,7 @@
 }
 
 .product-hr {
-    border: 1px solid rgb(180,218,220);
+    border: 1px solid black;
     max-width: 140ch;
     margin-left:3rem;
     margin-bottom:3rem;
@@ -119,14 +198,12 @@ a.text-link:hover {
 
 }
 
-.choose-weight {
-    margin-top:-1rem;
+.choose-weight{
+  margin-top:-1rem;
 }
 
-h3 {
-    text-align: center;
-    padding: 2em 1em 0;
-    font-size: 1.8em;
+h3{
+  margin-left:3rem;
 }
 
 .special-offer{
@@ -160,20 +237,20 @@ h3 {
     .space-above{
       margin-right:3rem;
     }
-    
+
     .special-offer{
       max-width:22rem;
       text-align:center;
     }
 
   }
-
+}
 /* DETAILED PRODUCT LISTING CSS */
 
 /* SIMILAR PRODUCT CAROUSEL CSS */
 
 .similar-items{
-  background-color: white;
+  background-color:rgb(224,236,236);
 }
 
 .similar-items-carousel {
@@ -232,21 +309,19 @@ select{
 }
 
 
-a.save-button {
-    padding: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    border: none;
-    background-color: rgb(78,128,136);
-    transition: 0.5s;
-    margin: 0rem;
-    color:white;
-    text-decoration: none;
+button.save-button {
+      padding: 0.5rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      border: none;
+      background-color: rgb(78,128,136);
+      transion: 0.5s;
+      margin-left: 0rem;
+      color:white;
 }
 
-a.save-button:hover, a.save-button:active{
-  background-color: rgb(180,218,220);
-    color: black;
+button.save-button:hover, button.save-button:active{
+  background-color:rgb(229,197,168);
 }
 
 /* RE.VIEW FORM */
@@ -276,7 +351,7 @@ div.review-tile{
 }
 
 span.divider {
-  color: rgb(180,218,220);
+  color: rgb(212,1,62);
 }
 
 span.post-date{
@@ -325,10 +400,3 @@ footer {
 
 
 /* FOOTER CSS */
-
-.copyright {
-    justify-content: center;
-    font-size: 0.9em;
-    padding: 0.5em;
-    width: 100%;
-}

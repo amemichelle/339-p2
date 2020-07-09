@@ -1,28 +1,18 @@
-<!-- This HTML document was created by Kristina Gorobets and Michelle Swolfs for IAT 339 -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <link rel='icon' href='favicon.ico' type='image/x-icon' />
-  <!-- https://www.101computing.net/html-how-to-add-a-favicon/ -->
+  <link rel='icon' href='favicon.ico' type='image/x-icon' /> <!-- https://www.101computing.net/html-how-to-add-a-favicon/ -->
+  <title>Cafe California</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/detailed_product_styling.css" rel="stylesheet">
+  <link href="css/detailed_product_grid.css" rel="stylesheet">
   
-    <title>Cafe California</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <link href="css/normalize.css" rel="stylesheet">
-  
-    <link href="js/jhome_animation.css" rel="stylesheet">
+  <link href="css/home_styling.css" rel="stylesheet">
     <link href="css/home_grid.css" rel="stylesheet">
-    <link href="css/home_styling.css" rel="stylesheet">
-    
-    <link href="css/detailed_product_styling.css" rel="stylesheet">
-    <link href="css/detailed_product_grid.css" rel="stylesheet">
-    
     <link href="js/jhome_animation.css" rel="stylesheet">
-    <link href="css/home_grid.css" rel="stylesheet">
-    <link href="css/home_styling.css" rel="stylesheet">
 
 </head>
 
@@ -78,9 +68,11 @@
     </nav>
 <!-- TOP BAR NAVIGATION -->
 
-<!-- BANNER IMAGE -->
+  <!-- BANNER IMAGE -->
 
-    <img src="img/header_img.png" class="banner-img" alt="welcome banner containing the coffee available to purchase">
+  <section>
+    <img src="img/banner.jpg" class="banner-img" alt="welcome banner containing the coffee available to purchase">
+  </section>
 
   <!-- BANNER IMAGE -->
 
@@ -97,11 +89,10 @@
 
       <div class="ratings">
 
-        <img src="img/five-stars.png" class="star-rating" alt="image showing the rating of the beach ball blend">
+        <img src="img/four-stars.png" class="star-rating">
 
         <a href="#reviews" class="product-in-text-link">&#40;23 reviews&#41;</a>
       </div>
-
 
       <div class="product-cost">
         <p class="price-label"> In stock &vert; <span class="price">$4.27 </span>&#47; 100g</p>
@@ -127,18 +118,21 @@
         <a href="#" class="text-link">Check store availability</a>
       </div>
 
-
     </div>
+
   </div>
 
+  <div class="special-offer">
+    <p><strong>Special offer: </strong>Buy 300g of coffee and get 50g of any blend for free!</p>
+  </div>
 
   <hr class="product-hr">
+
+
   <h3> Product Description</h3>
   <p class="space-above">Our Brazillian split blend is the base for our light-bodied beach ball blend. The blend has notes of red fruit with a floral undertone, which is sure to get you excited for the summertime. The best time to try out this blend is during the summer.</p>
   <p class="space-above">
     All blends bought online come whole. In store, we can pre-grind upon request.</p>
-
-
 
   <!-- DETAILED PRODUCT LISTING MODULE -->
   <hr class="product-hr">
@@ -189,12 +183,12 @@
     <div class="shipping-form-col-1">
       <div class="label-and-field">
         <label for="message">Message*</label>
-        <textarea name="name" rows="8" cols="40"  id="message"  class="form-input"> </textarea>
+        <textarea name="name" rows="8" cols="40" type="text" id="message" name="message" class="form-input"> </textarea>
       </div>
     </div>
 
     <div class="save-button">
-      <a class="save-button" href="#">Submit Review</a>
+      <button type="button" class="save-button" href="#">Submit Review</button>
     </div>
 
 
@@ -235,7 +229,7 @@
             <!-- Bonfire Blend listing -->
             <div class="product-listing" id="coffee-listing-2">
 
-                <a class="image-box" href="beach-ball-blend.html">
+                <a class="image-box" href="#">
 
                     <img src="img/bonfire-blend.jpg" class="product-image" height="200">
 
@@ -279,7 +273,7 @@
 
     </div>
 <!--SIMILAR ITEMS MODULE -->
-
+  
 </body>
 
 <!-- FOOTER -->
@@ -344,4 +338,5 @@
    
 </footer>
 <!-- FOOTER -->
+
 </html>

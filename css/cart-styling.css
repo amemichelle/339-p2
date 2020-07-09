@@ -86,22 +86,33 @@ button {
     color: black;
 }
 
-.cta {
+div.action-button, div.paypal-button {
+    transition: 0.5s;
+    margin: 1rem 0rem;
+    text-align: center;
+}
+
+.action-button a, .paypal-button a {
+    padding: 1rem;
+    border: none;
+    background-color: rgb(78,128,136);
+    transition: 0.5s;
     color: white;
     text-decoration: none;
-    text-align: center;
-    background-color: rgb(78,128,136);
-    margin: 2em 0;
-    padding: 1em;
+    width: 100%;
 }
 
-.cta:hover {
-    color: black;
+.action-button a:hover {
     background-color: rgb(180,218,220);
+    color: black;
 }
 
-.paypal-button {
+.paypal-button a {
     background-color: #003087;
+}
+
+.paypal-button a:hover {
+    background-color: rgb(78,128,136);
 }
 
 #first-radio-option {

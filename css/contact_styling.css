@@ -120,7 +120,7 @@ a.save-button {
     text-decoration: none;
 }
 
-a.save-button:hover, a.save-button:active{
+a.save-button:hover, a.save-button:active {
   background-color: rgb(180,218,220);
     color: black;
 }

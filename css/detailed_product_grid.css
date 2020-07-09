@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-/* NAVIGATION + PROMOTION CSS */
-.nav-items, .footer-menus, .product-full-listing, .ratings{
+.product-full-listing, .ratings {
   display: -ms-flex;
   display: -webkit-flex;
   display: flex;
@@ -12,12 +11,6 @@
   flex-wrap: -ms-flex;
   flex-wrap: -webkit-flex;
 }
-
-.right-nav-items{
-  flex:1 1 0;
-}
-
-/* NAVIGATION + PROMOTION CSS */
 
 /* DETAILED PRODUCT LISTING CSS */
 
@@ -150,10 +143,9 @@ div.save-button {
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
     align-items: center;
+    flex-flow: column wrap;
 }
 
-h3{
-}
 /* SIMILAR PRODUCT CAROUSEL CSS */
 
 
@@ -194,16 +186,12 @@ h3{
 
 @media screen and (max-width:48rem) {
 
-
   .footer-link-group{
     flex:2 1 0;
       margin-left: 1em;
   }
 
-
-
-  }
-
+}
 
 /* FOOTER CSS */
 

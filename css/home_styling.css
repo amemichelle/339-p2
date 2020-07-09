@@ -2,6 +2,11 @@
     font-family: "Acumin Pro Light", "Akzidenz-Grotesk BQ Light", Helvetica, Arial, sans-serif;
 }
 
+h2.home-header {
+    margin: 1em 2em 0;
+    text-align: center;
+}
+
 /* NAVIGATION CSS */
 
 .nav-items {
@@ -56,14 +61,13 @@ a.nav-right-link:hover{
 }
 
 .search-bar{
-    display:flex;
     padding-left: 1rem;
 }
 
 .search-text{
-  font-size:0.8rem;
-  padding:0.8rem;
-  border:none;
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  border: none;
   border-radius:15px 0px 0px 15px;
 
 }
@@ -76,7 +80,7 @@ a.nav-right-link:hover{
   border-radius:0px 15px 15px 0px;
 }
 
-.search-button:hover{
+.search-button:hover {
   background-color:rgb(78,128,136);
 }
 
@@ -199,9 +203,9 @@ a.cta:hover{
 }
 
 h2 {
-    padding-top:1rem;
-    margin-left:6rem;
-    font-size:3rem;
+    /*padding-top:1rem;*/
+    /*margin-left:6rem;*/
+    font-size:2.75rem;
 }
 
 /* PROMOTIONS CSS */
@@ -211,7 +215,7 @@ h2 {
 footer {
   display: flex;
   width: 100%;
-  background-color: rgb(237,242,242);
+  background-color: white;
   bottom: 0;
   padding: 2rem;
 }

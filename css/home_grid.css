@@ -3,7 +3,7 @@
 }
 
 /* NAVIGATION CSS */
-.nav-items, .promotion-container, .footer-menus, .center-align, .search-bar-and-button, .left-nav-items, .right-nav-items {
+.nav-items, .promotion-container, .footer-menus, .center-align, .center-align-footer, .left-nav-items, .right-nav-items, .footer-links-list {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -12,7 +12,7 @@
     flex-wrap: -webkit-flex;
 }
 
-.promotion-container, .footer-menus, .search-bar-and-button {
+.promotion-container, .footer-menus {
     flex-flow: row wrap;
 }
     
@@ -22,12 +22,18 @@
 }
 
 .search-bar-and-button {
-    max-width: 230px;
+    display: inline-flex;
+    max-width: 250px;
     margin: 0;
 }
 
 .left-nav-items {
     align-items: center;
+}
+
+.center-align-footer {
+    display: flex;
+    width: 100%;
 }
 
 /* NAV MENU MEDIA QUERIES*/
@@ -36,7 +42,7 @@
 
 @media screen and (max-width:425px) {
     
-    .nav-items, .center-align, .right-nav-items, .left-nav-items, .right-nav-items {
+    .nav-items, .center-align, .center-align-footer, .right-nav-items, .left-nav-items, .right-nav-items {
         flex-flow: column wrap;
         justify-content: center;
         width: 100%;
@@ -68,10 +74,8 @@
     }
     
     .right-nav-items {
-        width: 100%;
         margin: 0;
-        flex-flow: row wrap;
-        justify-content: center;
+        flex-flow: row nowrap;
     }
     
     .nav-items {
@@ -81,12 +85,38 @@
     
 }
 
+@media screen and (max-width:767px) {
+    
+    .center-align-footer {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    
+    .footer-link-group h5 {
+        text-align: center;
+    }
+    
+    .footer-links-list {
+        width: 100%;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    
+    .footer-links-list a {
+        flex: 1 1 auto;
+        margin: 0 1em;
+        text-align: center;
+    }
+    
+}
+
 /* tablet */
 
 @media screen and (min-width:711px) {
     
     .right-nav-items, .search-bar-and-button {
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
         justify-self: flex-end;
     }
     
@@ -110,8 +140,31 @@
 @media screen and (min-width:768px) {
     
     .right-nav-items, .search-bar-and-button {
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
         justify-content: flex-end;
+    }
+    
+    .footer-link-group {
+        flex:1 1 0;
+        margin-left: 2em;
+    }
+    
+    .center-align-footer {
+        flex-flow: row wrap;
+        align-items: flex-start;
+    }
+    
+    .footer-link-group h5 {
+        text-align: left;
+        padding: 0;
+        margin: 0 0 1em;
+        font-size: 1em;
+    }
+    
+    .footer-links-list {
+        width: 100%;
+        flex-flow: column wrap;
+        justify-content: space-between;
     }
       
 }
@@ -126,35 +179,16 @@
     
     .nav-items {
         position: sticky;
+        top: 0;
     }
     
 }
 
-.left-nav-items .right-nav-items, .promotion-items{
-  flex: 1 1 0;
-}
-
-
-
-/* NAVIGATION CSS */
-.right-nav-items, .promotion-items{
+.promotion-items{
   flex: 1 1 0;
 }
 
 /* NAVIGATION + PROMOTION CSS */
-
-.footer-link-group{
-  flex:1 1 0;
-    margin-left: 2em;
-}
-
-.footer-link-group h5 {
-    align-self: flex-start;
-    text-align: left;
-    padding: 0;
-    margin: 0 0 1em;
-    font-size: 1em;
-}
 
 .copyright {
     display: -ms-flex;
