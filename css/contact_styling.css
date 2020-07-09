@@ -97,8 +97,7 @@ a.nav-right-link:hover{
 
 h2 {
   margin-top:2rem;
-
-  font-size:3rem;
+  font-size:2.75rem;
 }
 
 input.form-input, textarea.form-input {
@@ -109,22 +108,21 @@ input.form-input, textarea.form-input {
   border-radius: 0px;
 }
 
-
-
-
-button.save-button {
-      padding: 0.5rem;
-      padding-left: 3rem;
-      padding-right: 3rem;
-      border: none;
-      background-color: rgb(78,128,136);
-      transion: 0.5s;
-      margin-left: 0rem;
-      color:white;
+a.save-button {
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: none;
+    background-color: rgb(78,128,136);
+    transition: 0.5s;
+    margin-left: 0rem;
+    color:white;
+    text-decoration: none;
 }
 
-button.save-button:hover, button.save-button:active{
-  background-color:rgb(229,197,168);
+a.save-button:hover, a.save-button:active{
+  background-color: rgb(180,218,220);
+    color: black;
 }
 
 @media screen and (max-width:48rem) {
@@ -153,6 +151,13 @@ padding-right:9.2rem;
 /* CONTACT FORM */
 
 
+/* FAQ */
+
+.faq-a {
+    max-width: 65ch;
+    line-height: 1.4em;
+}
+
 /* FOOTER CSS */
 
 footer {
@@ -175,3 +180,10 @@ footer {
 
 
 /* FOOTER CSS */
+
+.copyright {
+    justify-content: center;
+    font-size: 0.9em;
+    padding: 0.5em;
+    width: 100%;
+}

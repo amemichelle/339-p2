@@ -149,7 +149,7 @@ a.nav-right-link:hover{
 }
 
 .product-hr {
-    border: 1px solid black;
+    border: 1px solid rgb(180,218,220);
     max-width: 140ch;
     margin-left:3rem;
     margin-bottom:3rem;
@@ -229,7 +229,7 @@ h3{
     }
 
   }
-}
+
 /* DETAILED PRODUCT LISTING CSS */
 
 /* SIMILAR PRODUCT CAROUSEL CSS */
@@ -294,19 +294,21 @@ select{
 }
 
 
-button.save-button {
-      padding: 0.5rem;
-      padding-left: 3rem;
-      padding-right: 3rem;
-      border: none;
-      background-color: rgb(78,128,136);
-      transion: 0.5s;
-      margin-left: 0rem;
-      color:white;
+a.save-button {
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: none;
+    background-color: rgb(78,128,136);
+    transition: 0.5s;
+    margin: 0rem;
+    color:white;
+    text-decoration: none;
 }
 
-button.save-button:hover, button.save-button:active{
-  background-color:rgb(229,197,168);
+a.save-button:hover, a.save-button:active{
+  background-color: rgb(180,218,220);
+    color: black;
 }
 
 /* RE.VIEW FORM */
@@ -336,7 +338,7 @@ div.review-tile{
 }
 
 span.divider {
-  color: rgb(212,1,62);
+  color: rgb(180,218,220);
 }
 
 span.post-date{
@@ -385,3 +387,10 @@ footer {
 
 
 /* FOOTER CSS */
+
+.copyright {
+    justify-content: center;
+    font-size: 0.9em;
+    padding: 0.5em;
+    width: 100%;
+}

@@ -104,6 +104,10 @@
     max-width: 14em;
 }
 
+.image-box img:hover {
+    opacity: 0.5;
+}
+
 .sold-out-img {
     opacity: 0.5;
 }
@@ -131,6 +135,10 @@
 }
 
 /* TEXT STYLING */
+
+em {
+    font-style: normal;
+}
 
 a.product-title:hover {
     color: rgb(180,218,220);
@@ -177,6 +185,7 @@ em.sold-out-label {
     background-color: coral;
     color: white;
     border: 0px;
+    text-decoration: none;
 }
 
 .special-offer:hover {

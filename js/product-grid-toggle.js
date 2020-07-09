@@ -8,6 +8,8 @@ function showCoffee() {
     
     var coffeeListing2 = document.getElementById("coffee-listing-2");
     
+    var coffeeListing3 = document.getElementById("coffee-listing-3");
+    
     if (coffeeCheckbox.checked == true) {
         coffeeListing.style.display = "flex";
     } else {
@@ -18,6 +20,12 @@ function showCoffee() {
         coffeeListing2.style.display = "flex";
     } else {
         coffeeListing2.style.display = "none";
+    }
+    
+    if (coffeeCheckbox.checked == true) {
+        coffeeListing3.style.display = "flex";
+    } else {
+        coffeeListing3.style.display = "none";
     }
 }
 

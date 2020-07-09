@@ -3,7 +3,7 @@
 }
 
 /* NAVIGATION + PROMOTION CSS */
-.nav-items, .footer-menus{
+.nav-items, .footer-menus {
   display: -ms-flex;
   display: -webkit-flex;
   display: flex;
@@ -21,11 +21,15 @@
 
 /* SHIPPING FORM CSS */
 
-.m-element {
-    flex: 1 1 auto;
-    padding:1rem;
-    margin-bottom: 1em;
+@media(min-width:426px) {
+    
+    .contact-us-form {
+        padding: 1rem 3rem;
+        margin-bottom: 1em;
+    }
 }
+
+
 
 label{
   align-self:flex-start
@@ -61,19 +65,35 @@ label{
     flex-wrap: -webkit-flex;
     justify-content: flex-end;
     align-self: flex-end;
-    margin-bottom: 2rem;
     padding: 1rem;
 }
 
 @media screen and (max-width:48rem) {
 
-.save-button{
-  justify-content:flex-start;
-}
+    .save-button{
+      justify-content:flex-start;
+        margin: 0;
+        padding: 1em 0;
+    }
 
 }
 
 /* SHIPPING FORM CSS */
+
+/* FAQ SECTION CSS */
+
+.faq-section {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: column wrap;
+    
+    align-content: center;
+    margin-bottom: 4em;
+}
 
 /* FOOTER CSS */
 
@@ -91,3 +111,13 @@ label{
 }
 
 /* FOOTER CSS */
+
+.copyright {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: row wrap;
+}

@@ -21,11 +21,6 @@
 
 /* DETAILED PRODUCT LISTING CSS */
 
-.product-main-img{
-  display: flex;
-  flex: 40% 60% 0;
-}
-
 .ratings {
   flex:1 1 0;
 }
@@ -97,7 +92,7 @@ label{
   flex: 1 1 auto;
 }
 
-.save-button {
+div.save-button {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -106,7 +101,17 @@ label{
     justify-content: flex-end;
     align-self: flex-end;
     margin-bottom: 2rem;
-    padding: 1rem;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width:520px) {
+
+    .save-button {
+      justify-content:flex-start;
+        margin: 0;
+        padding: 1em 0;
+    }
+
 }
 
 /* RE.VIEW CSS */
@@ -136,7 +141,7 @@ label{
     flex-wrap: -ms-flex;
     flex-wrap: -webkit-flex;
 }
-}
+
 
 .product-listing {
     display: -ms-flex;
@@ -201,3 +206,13 @@ h3{
 
 
 /* FOOTER CSS */
+
+.copyright {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: row wrap;
+}

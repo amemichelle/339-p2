@@ -5,6 +5,7 @@ body {
 }
 
 h2.about-header {
+    font-size: 2.75em;
     margin: 1em 0 0.5em;
     padding: 0;
     margin-left: 0;
@@ -86,14 +87,15 @@ p.icon-subtitle {
     background-position: center;
 }
 
-button {
+button, a.continue-shopping {
+    text-decoration: none;
     border: 0px;
     padding: 1em;
     color: white;
     background-color: rgb(78,128,136);
 }
 
-button.continue-shopping:hover {
+a.continue-shopping:hover {
     color: black;
     background-color: rgb(180,218,220);
 }
@@ -108,7 +110,7 @@ button.continue-shopping:hover {
 
 /* MEDIA QUERIES */
 
-@media(min-width:1023px) {
+@media screen and (min-width:1023px) {
     
     .centered-overlay-title {
         font-size: 2.5em;

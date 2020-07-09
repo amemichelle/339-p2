@@ -31,7 +31,7 @@
     align-items: center;
 }
 
-@media(min-width:768px) {
+@media screen and (min-width:768px) {
     
     .about-cta {
         flex-flow: row wrap;
@@ -46,7 +46,7 @@
         flex: 1 1 20%;
     }
     
-    .about-cta button {
+    .about-cta a{
         margin-right: 2em;
     }
     
@@ -55,7 +55,7 @@
     }
 }
 
-@media(max-width:767px) {
+@media screen and (max-width:767px) {
     
     .about-cta {
         flex-flow: column wrap;
@@ -71,11 +71,11 @@
         margin: 2em 0;
     }
     
-    .about-cta button {
+    .about-cta {
         margin-top: 1em;
     }
     
-    .about-cta {
+    .about-cta a {
         flex-direction: column-reverse;
     }
     

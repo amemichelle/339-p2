@@ -1,6 +1,6 @@
 /* GENERAL */
 
-.item-section, .price-and-remove, .summary-product-info, .cart-container, .order-summary-sidebar, .shipping-method-with-date, .cart-with-order-summary, .summary-availability, .summary-product-listing-full, .order-summary-subtotal, .cart-top-bar, .summary-price, .summary-quantity, .order-summary-total, .order-summary-quantity-and-price, .shipping-method-container, .shipping-method-choice, .billing-address-line, .edit-button, .order-summary-title-and-edit, .payment-method, .payment-box {
+.item-section, .price-and-remove, .summary-product-info, .cart-container, .order-summary-sidebar, .shipping-method-with-date, .cart-with-order-summary, .summary-availability, .summary-product-listing-full, .order-summary-subtotal, .cart-top-bar, .summary-price, .summary-quantity, .order-summary-total, .order-summary-quantity-and-price, .shipping-method-container, .shipping-method-choice, .billing-address-line, .edit-button, .order-summary-title-and-edit, .payment-method, .payment-box, .copyright {
     display: -ms-flex
     display: -webkit-flex;
     display: flex;
@@ -14,13 +14,9 @@
     flex-flow: column wrap;
 }
 
-.cart-with-order-summary, .summary-availability, .order-summary-subtotal, .cart-top-bar, .summary-price, .summary-quantity, .order-summary-total, .order-summary-quantity-and-price, .shipping-method-container, .shipping-method-choice, .billing-address-line, .edit-button, .order-summary-title-and-edit, .payment-method, .payment-box {
+.cart-with-order-summary, .summary-availability, .order-summary-subtotal, .cart-top-bar, .summary-price, .summary-quantity, .order-summary-total, .order-summary-quantity-and-price, .shipping-method-container, .shipping-method-choice, .billing-address-line, .edit-button, .order-summary-title-and-edit, .payment-method, .payment-box, .copyright {
     
     flex-flow: row wrap;
-}
-
-.summary-quantity {
-    flex: 1 1 auto;
 }
 
 .price-and-remove {
@@ -29,7 +25,6 @@
 
 .summary-price {
     justify-content: flex-end;
-    margin-right: 0.75em;
 }
 
 .top-bar-longer {
@@ -60,14 +55,14 @@
     flex: 1 1 auto;
 }
 
+.order-summary-sidebar {
+    
+}
+
 .order-summary-subtotal, .order-summary-total {
     align-content: space-between;
     justify-content: space-between;
     align-items: center;
-}
-
-.order-summary-subtotal {
-    padding: 0.25em 0;
 }
 
 .order-summary-total {
@@ -111,7 +106,7 @@
 
 /* mobile */
 
-@media(max-width:425px) {
+@media screen and (max-width:425px) {
     
     .summary-product-listing-full, .item-section, .cart-container {
         flex-flow: column wrap;
@@ -140,7 +135,7 @@
 
 /* tablet */
 
-@media(max-width:767px) {
+@media screen and (max-width:767px) {
     
     
     
@@ -148,7 +143,7 @@
 
 /* desktop */
 
-@media(min-width:768px) {
+@media screen and (min-width:768px) {
     
     
     
@@ -156,7 +151,7 @@
 
 /* tablet and desktop */
 
-@media(min-width:426px) {
+@media screen and (min-width:426px) {
     
     .item-section {
         flex-flow: row wrap;
@@ -171,6 +166,14 @@
     .cart-container {
         flex: 2 1 auto;
         margin-right: 2rem;
+    }
+    
+    .summary-product-image {
+        margin-right: 2em;
+    }
+    
+    .summary-price, .remove-button {
+        margin-right: 18px;
     }
     
 }

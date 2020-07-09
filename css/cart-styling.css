@@ -6,7 +6,7 @@
 
 /* TEXT STYLING */
 
-.cart-header {
+h2.cart-header {
     font-family: "Acumin Pro Light", "Akzidenz-Grotesk BQ Light", Helvetica, Arial, sans-serif;
     margin: 1em 0;
     font-size: 1.5em;
@@ -19,6 +19,11 @@ h3.order-summary-small-title {
     font-weight: bold;
 }
 
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
 .summary-price, .summary-quantity, .summary-product-title {
     font-size: 1.4em;
     font-weight: 100;
@@ -26,7 +31,7 @@ h3.order-summary-small-title {
 
 .summary-quantity {
     text-align: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .order-summary-total {
@@ -52,13 +57,21 @@ h3.order-summary-small-title {
     font-size: 0.9em;
 }
 
+.copyright {
+    justify-content: center;
+    font-size: 0.9em;
+    padding: 0.5em;
+    width: 100%;
+}
+
 
 /* INTERACTIVE ELEMENT STYLING */
 
 .remove-button {
+    font-size: 0.9em;
     text-align: right;
     background-color: transparent;
-    color: black;
+    color: red;
     padding: 0;
     text-decoration: underline;
 }
@@ -66,15 +79,19 @@ h3.order-summary-small-title {
 .remove-button:hover {
     background-color: transparent;
     text-decoration: none;
-    color: red;
+    color: black;
 }
 
 .cta {
+    color: white;
+    text-decoration: none;
+    text-align: center;
     background-color: rgb(78,128,136);
     margin: 2em 0;
 }
 
 .cta:hover {
+    color: black;
     background-color: rgb(180,218,220);
 }
 
@@ -117,6 +134,7 @@ h3.order-summary-small-title {
 }
 
 .order-summary-hr {
+    border: 1px solid rgb(180,218,220);
     padding: 0;
     margin: 0;
 }
@@ -180,7 +198,7 @@ input[type=radio]:checked {
 
 /* mobile */
 
-@media(max-width:425px) {
+@media screen and (max-width:425px) {
     
     .cart-top-bar {
         display: none;
@@ -190,7 +208,7 @@ input[type=radio]:checked {
 
 /* tablet */
 
-@media(max-width:767px) {
+@media screen and (max-width:767px) {
     
     
     
@@ -198,7 +216,7 @@ input[type=radio]:checked {
 
 /* desktop */
 
-@media(min-width:768px) {
+@media screen and (min-width:768px) {
     
    /* label {
         margin-right: 4em;

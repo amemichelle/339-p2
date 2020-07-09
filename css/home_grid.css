@@ -13,7 +13,7 @@
   flex-wrap: -webkit-flex;
 }
 
-.left-nav-tems. .right-nav-items, .promotion-items{
+.left-nav-items .right-nav-items, .promotion-items{
   flex:1 1 0;
 }
 
@@ -37,4 +37,14 @@
     padding: 0;
     margin: 0 0 1em;
     font-size: 1em;
+}
+
+.copyright {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-wrap: -ms-flex;
+    flex-wrap: -webkit-flex;
+    flex-flow: row wrap;
 }
