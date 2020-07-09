@@ -1,7 +1,7 @@
 /* GENERAL */
 
 .item-section, .price-and-remove, .summary-product-info, .cart-container, .order-summary-sidebar, .shipping-method-with-date, .cart-with-order-summary, .summary-availability, .summary-product-listing-full, .order-summary-subtotal, .cart-top-bar, .summary-price, .summary-quantity, .order-summary-total, .order-summary-quantity-and-price, .shipping-method-container, .shipping-method-choice, .billing-address-line, .edit-button, .order-summary-title-and-edit, .payment-method, .payment-box, .copyright, div.action-button, div.paypal-button {
-    display: -ms-flex
+    display: -ms-flex;
     display: -webkit-flex;
     display: flex;
 
@@ -15,7 +15,7 @@
 }
 
 .cart-with-order-summary, .summary-availability, .order-summary-subtotal, .cart-top-bar, .summary-price, .summary-quantity, .order-summary-total, .order-summary-quantity-and-price, .shipping-method-container, .shipping-method-choice, .billing-address-line, .edit-button, .order-summary-title-and-edit, .payment-method, .payment-box, .copyright {
-    
+
     flex-flow: row wrap;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .order-summary-sidebar {
-    
+
 }
 
 .order-summary-subtotal, .order-summary-total {
@@ -107,14 +107,14 @@
 /* mobile */
 
 @media screen and (max-width:710px) {
-    
+
     .summary-product-listing-full, .item-section, .cart-container {
         flex-flow: column wrap;
         align-items: center;
         text-align: center;
         align-self: center;
     }
-    
+
     .summary-price-label, h2.cart-header {
         text-align: center;
     }
@@ -122,63 +122,63 @@
     .payment-method-choices, .billing-address-line {
         align-self: center;
     }
-    
+
     hr.order-summary-hr, .order-info, .cart-container {
         width: 100%;
     }
-    
+
     .summary-price {
         margin: 0;
     }
-    
+
     .summary-product-image {
         width: 250px;
         height: 250px;
     }
-    
+
 }
 
 /* tablet */
 
 @media screen and (max-width:767px) {
-    
-    
-    
+
+
+
 }
 
 /* desktop */
 
 @media screen and (min-width:768px) {
-    
-    
-    
+
+
+
 }
 
 /* tablet and desktop */
 
 @media screen and (min-width:711px) {
-    
+
     .item-section {
         flex-flow: row wrap;
         flex: 3 1 auto;
     }
-    
+
     .summary-product-listing-full {
         flex-flow: row wrap;
         justify-content: space-between;
     }
-    
+
     .cart-container {
         flex: 2 1 auto;
         margin-right: 2rem;
     }
-    
+
     .summary-product-image {
         margin-right: 2em;
     }
-    
+
     .summary-price, .remove-button {
         margin-right: 18px;
     }
-    
+
 }
