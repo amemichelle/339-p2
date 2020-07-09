@@ -4,12 +4,11 @@
 
 /* NAVIGATION CSS */
 .nav-items, .promotion-container, .footer-menus, .center-align, .search-bar-and-button, .left-nav-items, .right-nav-items {
-    display: -ms-flex;
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-flex;
+  display: flex;
 
-    flex-wrap: -ms-flex;
-    flex-wrap: -webkit-flex;
+  flex-wrap: -ms-flex;
+  flex-wrap: -webkit-flex;
 }
 
 .promotion-container, .footer-menus, .search-bar-and-button {
@@ -48,10 +47,6 @@
         margin: 1em 0;
     }
     
-    .nav-items {
-        position: static;
-    }
-    
 }
 
 @media screen and (min-width:426px) and (max-width:767px) {
@@ -74,16 +69,11 @@
         justify-content: center;
     }
     
-    .nav-items {
-        position: static;
-        top: 0;
-    }
-    
 }
 
 /* tablet */
 
-@media screen and (min-width:711px) {
+@media screen and (min-width:710px) {
     
     .right-nav-items, .search-bar-and-button {
         flex-flow: row wrap;
@@ -122,10 +112,6 @@
     
     .nav-items, .center-align {
         flex-flow: row wrap;
-    }
-    
-    .nav-items {
-        position: sticky;
     }
     
 }

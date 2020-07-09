@@ -1,25 +1,27 @@
+/* TEXT STYLES */
+
 * {
     font-family: "Acumin Pro Light", "Akzidenz-Grotesk BQ Light", Helvetica, Arial, sans-serif;
 }
 
-/* NAVIGATION CSS */
+/* NAVIGATION BAR */
 
 .nav-items {
     background-color: rgb(180,218,220);
-/*    height: 80px;*/
-    /*position: sticky;*/
+    position: sticky;
+    top: 0;
     padding: 1rem;
     box-shadow: 0 10px 20px rgb(78,128,136);
 }
 
-.right-nav-items{
+.right-nav-items {
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
     margin-right: 1rem;
 }
 
-.center-align{
+.center-align {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -52,12 +54,12 @@ a.nav-right-link {
 }
 
 a.nav-right-link:hover{
-  border-bottom: 2px solid rgb(78,128,136);
+  border-bottom:2px solid rgb(78,128,136);
 }
 
 .search-bar{
-    display:flex;
-    padding-left: 1rem;
+  display:flex;
+  padding-left:1rem;
 }
 
 .search-text{

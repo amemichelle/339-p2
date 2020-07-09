@@ -106,7 +106,7 @@
 
 /* mobile */
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:710px) {
     
     .summary-product-listing-full, .item-section, .cart-container {
         flex-flow: column wrap;
@@ -131,6 +131,11 @@
         margin: 0;
     }
     
+    .summary-product-image {
+        width: 250px;
+        height: 250px;
+    }
+    
 }
 
 /* tablet */
@@ -151,7 +156,7 @@
 
 /* tablet and desktop */
 
-@media screen and (min-width:426px) {
+@media screen and (min-width:711px) {
     
     .item-section {
         flex-flow: row wrap;

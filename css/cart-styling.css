@@ -67,6 +67,10 @@ em {
 
 /* INTERACTIVE ELEMENT STYLING */
 
+button {
+    border: 0px transparent;
+}
+
 .remove-button {
     font-size: 0.9em;
     text-align: right;
@@ -88,6 +92,7 @@ em {
     text-align: center;
     background-color: rgb(78,128,136);
     margin: 2em 0;
+    padding: 1em;
 }
 
 .cta:hover {
@@ -198,7 +203,7 @@ input[type=radio]:checked {
 
 /* mobile */
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:710px) {
     
     .cart-top-bar {
         display: none;
